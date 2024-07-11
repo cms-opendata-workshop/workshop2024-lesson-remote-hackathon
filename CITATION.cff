@@ -1,0 +1,13 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: CMS Open Data Workshop lessons
+type: dataset
+authors:
+  - name: CMS Data Preservation & Open Access group
+    address: CERN
+    city: Meyrin
+    country: CH
+abstract: Lesson content for the CMS Open Data Workshops, supporting research use of CMS data stored on the CERN Open Data Portal.
+license: CC-BY-4.0
