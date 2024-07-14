@@ -18,7 +18,7 @@ varnish: 'cms-opendata-workshop/varnish'
 title: 'Hackathon'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ #'2024-07-14' 
+created: 2024-07-14
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, CMS, hackathon' 
@@ -71,6 +71,7 @@ episodes:
 
 # Information for Learners
 learners: 
+- setup.md
 
 # Information for Instructors
 instructors: 
