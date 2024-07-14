@@ -1,114 +1,67 @@
 ---
-title: "Using Markdown"
-teaching: 10
-exercises: 2
+title: "Introduction"
+teaching: 5
+exercises: 0
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`? TESTING
+- What is C++?
+- What is ROOT?
+- What is the point of these exercises?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Learn a bit about C++ and how to compile C++ code.
+- Learn how to use ROOT to write and read from files, using the C++ libraries.
+- Learn how to use ROOT to investigate data and create simple histograms.
+- Explore the ROOT python libraries.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
+## Let's talk about ROOT!
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+From the [ROOT website](https://root.cern/):
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
+::::::::::::::::::::::: testimonial
+*ROOT is a framework for data processing, born at CERN, at the heart of the research on high-energy physics. Every day, thousands of physicists use ROOT applications to analyze their data or to perform simulations.*
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+In short, ROOT is an overarching toolkit that defines a file structure, methods to analyze particle physics
+data, visualization tools, and is the backbone of many widely used statistical analysis tool kits,
+such as RooFit and RooStats. You don't *need* to use ROOT for your own analysis, but you will have to have
+some familiarity with it when you are first accessing the open data.
+:::::::::::::::::::::::
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+OK, that sounds cool. So what's the deal with C++?
 
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
+## ROOT and C++
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+In the mid-80's, [C++](https://en.wikipedia.org/wiki/C%2B%2B) extended the very popular [C programming language](https://en.wikipedia.org/wiki/C_(programming_language)),
+primarily with the introduction of [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) (OOP).
+This programming paradigm was adopted by many particle physics experiments in the 1990's and when ROOT was written,
+it was written in C++. While there are now python hooks to call the ROOT functions, the underlying code is all in C++.
 
-::::::::::::::::::::::::::::::::::::: challenge 
+Because C++ is a compiled code, it is usually much faster than a scripted language like python, though that is
+changing with modern python tools. Still, since much of the original analysis and access code was written in C++
+and calling the C++ ROOT libraries, it's good to know some of the basics of ROOT, in a C++ context.
 
-## Challenge 1: Can you do it?
+Most CMS analysts interface with ROOT using python scripts and you may find yourself using a similar workflow.
+Later on in this lesson, we'll walk you through some very basic python scripts and point you toward more in-depth
+tutorials, for those who want to go further.
 
-What is the output of this command?
+::::::::::::::::::::::::::::: callout
+## You still have choices!
 
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
-
-:::::::::::::::::::::::: solution 
-
-## Output
- 
-```output
-[1] "This new lesson looks good"
-```
-
-:::::::::::::::::::::::::::::::::
-
-
-## Challenge 2: how do you nest solutions within challenge blocks?
-
-:::::::::::::::::::::::: solution 
-
-You can add a line with at least three colons and a `solution` tag.
-
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-## Figures
-
-You can use standard markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
-
-::::::::::::::::::::::::::::::::::::: callout
-
-Callout sections can highlight information.
-
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
+Just to emphasize, you really only *need* to use ROOT and C++ at the early stages of analyzing CMS Open Data in the AOD (Run 1) or MiniAOD (Run 2) formats. These datasets require using CMS-provided tools that perform much better in C++ than python. However, downstream in your analysis or to analyze Run 2 NanoAOD files, you are welcome to use whatever tools and file formats you choose.
+:::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- C++ has a reputation for being intimidating, but there are only a few things you need to learn to edit the open data code for your own uses.
+- You can use the ROOT toolkit using both C++ and python.
+- Some ROOT code is written in C++ to access the datafiles.
+- People will often use simpler C++ scripts or python scripts to analyze reduced datasets.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-
-[r-markdown]: https://rmarkdown.rstudio.com/
