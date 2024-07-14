@@ -63,11 +63,10 @@ contact: 'cms-dpoa-coordinator@cern.ch'
 
 # Order of episodes in your lesson
 episodes: 
-- 01-introduction.md
-- 02-particlediscoverylab.md
-- 03-ppp.md
-- 04-ml.md
-- 05-agc.md
+- 01-particlediscoverylab.md
+- 02-ppp.md
+- 03-ml.md
+- 04-agc.md
 
 # Information for Learners
 learners: 
