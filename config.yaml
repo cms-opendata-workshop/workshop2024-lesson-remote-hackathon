@@ -15,29 +15,29 @@ carpentry: 'incubator'
 varnish: 'cms-opendata-workshop/varnish'
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'Hackathon'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: ~ '2024-07-14' 
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, CMS' # FIXME
+keywords: 'software, data, CMS, hackathon' 
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: 'alpha' # FIXME
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/cms-opendata-workshop/workbench-template-md' # FIXME
+source: 'https://github.com/cms-opendata-workshop/workshop2024-lesson-remote-hackathon' 
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'cms-dpoa-coordinator@cern.ch' # FIXME
+contact: 'cms-dpoa-coordinator@cern.ch' 
 
 # Navigation ------------------------------------------------
 #
@@ -63,7 +63,11 @@ contact: 'cms-dpoa-coordinator@cern.ch' # FIXME
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.md
+- 01-introduction.md
+- 02-particlediscoverylab.md
+- 03-ppp.md
+- 04-ml.md
+- 05-agc.md
 
 # Information for Learners
 learners: 
@@ -78,5 +82,3 @@ profiles:
 #
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
-
-
