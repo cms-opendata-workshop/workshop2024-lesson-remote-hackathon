@@ -6,7 +6,7 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- How do you write a lesson using Markdown and `{sandpaper}`? TESTING
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
