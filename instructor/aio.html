@@ -253,7 +253,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="02-particlediscoverylab.html">2. Introduction</a>
+        <a href="02-particlediscoverylab.html">2. Particle Discovery Lab</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -265,7 +265,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="03-ppp.html">3. Introduction</a>
+        <a href="03-ppp.html">3. Particle Physics Playground</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -277,7 +277,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="04-ml.html">4. Introduction</a>
+        <a href="04-ml.html">4. Machine Learning with Open Data</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -289,7 +289,7 @@
 <div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
-        <a href="05-agc.html">5. Introduction</a>
+        <a href="05-agc.html">5. Advanced Generative Challenge</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -481,12 +481,12 @@ analyze reduced datasets.</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-02-particlediscoverylab"><p>Content from <a href="02-particlediscoverylab.html">Introduction</a></p>
+</section></section><section id="aio-02-particlediscoverylab"><p>Content from <a href="02-particlediscoverylab.html">Particle Discovery Lab</a></p>
 <hr>
 <p>Last updated on 2024-07-14 |
 
         <a href="https://github.com/cms-opendata-workshop/workshop2024-lesson-remote-hackathon/edit/main/episodes/02-particlediscoverylab.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 5 minutes</p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 90 minutes</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -498,9 +498,11 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What is C++?</li>
-<li>What is ROOT?</li>
-<li>What is the point of these exercises?</li>
+<li>How can we identify different particles in collision data?</li>
+<li>What are the characteristics of muons and electrons in the
+dataset?</li>
+<li>How do we perform basic and advanced data analysis in particle
+physics?</li>
 </ul>
 </div>
 </div>
@@ -510,65 +512,24 @@ any links that you are not going to use.
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Learn a bit about C++ and how to compile C++ code.</li>
-<li>Learn how to use ROOT to write and read from files, using the C++
-libraries.</li>
-<li>Learn how to use ROOT to investigate data and create simple
-histograms.</li>
-<li>Explore the ROOT python libraries.</li>
+<li>Understand the basics of particle collision data.</li>
+<li>Learn how to identify different particles.</li>
+<li>Perform both basic and advanced data analysis tasks.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="lets-talk-about-root">Let’s talk about ROOT!<a class="anchor" aria-label="anchor" href="#lets-talk-about-root"></a>
-<a class="anchor" aria-label="anchor" href="#lets-talk-about-root"></a>
+<section><h2 class="section-heading" id="particle-discovery-lab-for-students">Particle Discovery lab (for students!)<a class="anchor" aria-label="anchor" href="#particle-discovery-lab-for-students"></a>
+<a class="anchor" aria-label="anchor" href="#particle-discovery-lab-for-students"></a>
 </h2>
 <hr class="half-width">
-<p>From the <a href="https://root.cern/" class="external-link">ROOT website</a>:</p>
-<div id="testimonial1" class="callout testimonial">
-<div class="callout-square">
-<i class="callout-icon" data-feather="heart"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Testimonial<a class="anchor" aria-label="anchor" href="#testimonial1"></a>
-</h3>
-<div class="callout-content">
-<p><em>ROOT is a framework for data processing, born at CERN, at the
-heart of the research on high-energy physics. Every day, thousands of
-physicists use ROOT applications to analyze their data or to perform
-simulations.</em></p>
-<p>In short, ROOT is an overarching toolkit that defines a file
-structure, methods to analyze particle physics data, visualization
-tools, and is the backbone of many widely used statistical analysis tool
-kits, such as RooFit and RooStats. You don’t <em>need</em> to use ROOT
-for your own analysis, but you will have to have some familiarity with
-it when you are first accessing the open data.</p>
-</div>
-</div>
-</div>
-<p>OK, that sounds cool. So what’s the deal with C++?</p>
-</section><section><h2 class="section-heading" id="root-and-c">ROOT and C++<a class="anchor" aria-label="anchor" href="#root-and-c"></a>
-<a class="anchor" aria-label="anchor" href="#root-and-c"></a>
-</h2>
-<hr class="half-width">
-<p>In the mid-80’s, <a href="https://en.wikipedia.org/wiki/C%2B%2B" class="external-link">C++</a> extended the very
-popular <a href="https://en.wikipedia.org/wiki/C_(programming_language)" class="external-link">C
-programming language</a>, primarily with the introduction of <a href="https://en.wikipedia.org/wiki/Object-oriented_programming" class="external-link">object-oriented
-programming</a> (OOP). This programming paradigm was adopted by many
-particle physics experiments in the 1990’s and when ROOT was written, it
-was written in C++. While there are now python hooks to call the ROOT
-functions, the underlying code is all in C++.</p>
-<p>Because C++ is a compiled code, it is usually much faster than a
-scripted language like python, though that is changing with modern
-python tools. Still, since much of the original analysis and access code
-was written in C++ and calling the C++ ROOT libraries, it’s good to know
-some of the basics of ROOT, in a C++ context.</p>
-<p>Most CMS analysts interface with ROOT using python scripts and you
-may find yourself using a similar workflow. Later on in this lesson,
-we’ll walk you through some very basic python scripts and point you
-toward more in-depth tutorials, for those who want to go further.</p>
+<p>Participants will analyze real particle collision data from the CMS
+experiment. They will identify different particles, such as muons and
+electrons, by examining the data’s characteristics. This exercise helps
+students understand how physicists discover and study fundamental
+particles.</p>
 <div id="you-still-have-choices" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -595,13 +556,9 @@ whatever tools and file formats you choose.</p>
 </h3>
 <div class="callout-content">
 <ul>
-<li>C++ has a reputation for being intimidating, but there are only a
-few things you need to learn to edit the open data code for your own
-uses.</li>
-<li>You can use the ROOT toolkit using both C++ and python.</li>
-<li>Some ROOT code is written in C++ to access the datafiles.</li>
-<li>People will often use simpler C++ scripts or python scripts to
-analyze reduced datasets.</li>
+<li>Introduction to particle collision data.</li>
+<li>Particle identification techniques.</li>
+<li>Advanced data analysis methods.</li>
 </ul>
 </div>
 </div>
@@ -610,7 +567,7 @@ analyze reduced datasets.</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-03-ppp"><p>Content from <a href="03-ppp.html">Introduction</a></p>
+</section></section><section id="aio-03-ppp"><p>Content from <a href="03-ppp.html">Particle Physics Playground</a></p>
 <hr>
 <p>Last updated on 2024-07-14 |
 
@@ -627,9 +584,10 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What is C++?</li>
-<li>What is ROOT?</li>
-<li>What is the point of these exercises?</li>
+<li>What are the fundamental concepts in particle physics?</li>
+<li>How can we analyze particle decay patterns?</li>
+<li>What tools are available for practical analysis of particle physics
+data?</li>
 </ul>
 </div>
 </div>
@@ -639,65 +597,24 @@ any links that you are not going to use.
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Learn a bit about C++ and how to compile C++ code.</li>
-<li>Learn how to use ROOT to write and read from files, using the C++
-libraries.</li>
-<li>Learn how to use ROOT to investigate data and create simple
-histograms.</li>
-<li>Explore the ROOT python libraries.</li>
+<li>Gain a solid understanding of fundamental particle physics
+concepts.</li>
+<li>Learn how to analyze particle decay patterns.</li>
+<li>Familiarize with tools for practical analysis of particle physics
+data.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="lets-talk-about-root">Let’s talk about ROOT!<a class="anchor" aria-label="anchor" href="#lets-talk-about-root"></a>
-<a class="anchor" aria-label="anchor" href="#lets-talk-about-root"></a>
+<section><h2 class="section-heading" id="particle-physics-playground">Particle Physics Playground<a class="anchor" aria-label="anchor" href="#particle-physics-playground"></a>
+<a class="anchor" aria-label="anchor" href="#particle-physics-playground"></a>
 </h2>
 <hr class="half-width">
-<p>From the <a href="https://root.cern/" class="external-link">ROOT website</a>:</p>
-<div id="testimonial1" class="callout testimonial">
-<div class="callout-square">
-<i class="callout-icon" data-feather="heart"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Testimonial<a class="anchor" aria-label="anchor" href="#testimonial1"></a>
-</h3>
-<div class="callout-content">
-<p><em>ROOT is a framework for data processing, born at CERN, at the
-heart of the research on high-energy physics. Every day, thousands of
-physicists use ROOT applications to analyze their data or to perform
-simulations.</em></p>
-<p>In short, ROOT is an overarching toolkit that defines a file
-structure, methods to analyze particle physics data, visualization
-tools, and is the backbone of many widely used statistical analysis tool
-kits, such as RooFit and RooStats. You don’t <em>need</em> to use ROOT
-for your own analysis, but you will have to have some familiarity with
-it when you are first accessing the open data.</p>
-</div>
-</div>
-</div>
-<p>OK, that sounds cool. So what’s the deal with C++?</p>
-</section><section><h2 class="section-heading" id="root-and-c">ROOT and C++<a class="anchor" aria-label="anchor" href="#root-and-c"></a>
-<a class="anchor" aria-label="anchor" href="#root-and-c"></a>
-</h2>
-<hr class="half-width">
-<p>In the mid-80’s, <a href="https://en.wikipedia.org/wiki/C%2B%2B" class="external-link">C++</a> extended the very
-popular <a href="https://en.wikipedia.org/wiki/C_(programming_language)" class="external-link">C
-programming language</a>, primarily with the introduction of <a href="https://en.wikipedia.org/wiki/Object-oriented_programming" class="external-link">object-oriented
-programming</a> (OOP). This programming paradigm was adopted by many
-particle physics experiments in the 1990’s and when ROOT was written, it
-was written in C++. While there are now python hooks to call the ROOT
-functions, the underlying code is all in C++.</p>
-<p>Because C++ is a compiled code, it is usually much faster than a
-scripted language like python, though that is changing with modern
-python tools. Still, since much of the original analysis and access code
-was written in C++ and calling the C++ ROOT libraries, it’s good to know
-some of the basics of ROOT, in a C++ context.</p>
-<p>Most CMS analysts interface with ROOT using python scripts and you
-may find yourself using a similar workflow. Later on in this lesson,
-we’ll walk you through some very basic python scripts and point you
-toward more in-depth tutorials, for those who want to go further.</p>
+<p>This lesson offers a variety of exercises designed to help
+undergraduates understand fundamental concepts in particle physics
+through practical analysis of CMS Open Data.</p>
 <div id="you-still-have-choices" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -724,13 +641,9 @@ whatever tools and file formats you choose.</p>
 </h3>
 <div class="callout-content">
 <ul>
-<li>C++ has a reputation for being intimidating, but there are only a
-few things you need to learn to edit the open data code for your own
-uses.</li>
-<li>You can use the ROOT toolkit using both C++ and python.</li>
-<li>Some ROOT code is written in C++ to access the datafiles.</li>
-<li>People will often use simpler C++ scripts or python scripts to
-analyze reduced datasets.</li>
+<li>Fundamental concepts in particle physics.</li>
+<li>Analysis of particle decay patterns.</li>
+<li>Practical analysis tools and techniques.</li>
 </ul>
 </div>
 </div>
@@ -739,7 +652,7 @@ analyze reduced datasets.</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-04-ml"><p>Content from <a href="04-ml.html">Introduction</a></p>
+</section></section><section id="aio-04-ml"><p>Content from <a href="04-ml.html">Machine Learning with Open Data</a></p>
 <hr>
 <p>Last updated on 2024-07-14 |
 
@@ -756,9 +669,11 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What is C++?</li>
-<li>What is ROOT?</li>
-<li>What is the point of these exercises?</li>
+<li>How can machine learning be applied to particle physics data?</li>
+<li>What are the steps involved in preparing data for machine learning
+analysis?</li>
+<li>How do we train and evaluate a machine learning model in this
+context?</li>
 </ul>
 </div>
 </div>
@@ -768,82 +683,24 @@ any links that you are not going to use.
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Learn a bit about C++ and how to compile C++ code.</li>
-<li>Learn how to use ROOT to write and read from files, using the C++
-libraries.</li>
-<li>Learn how to use ROOT to investigate data and create simple
-histograms.</li>
-<li>Explore the ROOT python libraries.</li>
+<li>Learn the basics of machine learning and its applications in
+particle physics.</li>
+<li>Understand the process of preparing data for machine learning.</li>
+<li>Gain practical experience in training and evaluating a machine
+learning model.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="lets-talk-about-root">Let’s talk about ROOT!<a class="anchor" aria-label="anchor" href="#lets-talk-about-root"></a>
-<a class="anchor" aria-label="anchor" href="#lets-talk-about-root"></a>
+<section><h2 class="section-heading" id="machine-learning-in-hep">Machine Learning in HEP<a class="anchor" aria-label="anchor" href="#machine-learning-in-hep"></a>
+<a class="anchor" aria-label="anchor" href="#machine-learning-in-hep"></a>
 </h2>
 <hr class="half-width">
-<p>From the <a href="https://root.cern/" class="external-link">ROOT website</a>:</p>
-<div id="testimonial1" class="callout testimonial">
-<div class="callout-square">
-<i class="callout-icon" data-feather="heart"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Testimonial<a class="anchor" aria-label="anchor" href="#testimonial1"></a>
-</h3>
-<div class="callout-content">
-<p><em>ROOT is a framework for data processing, born at CERN, at the
-heart of the research on high-energy physics. Every day, thousands of
-physicists use ROOT applications to analyze their data or to perform
-simulations.</em></p>
-<p>In short, ROOT is an overarching toolkit that defines a file
-structure, methods to analyze particle physics data, visualization
-tools, and is the backbone of many widely used statistical analysis tool
-kits, such as RooFit and RooStats. You don’t <em>need</em> to use ROOT
-for your own analysis, but you will have to have some familiarity with
-it when you are first accessing the open data.</p>
-</div>
-</div>
-</div>
-<p>OK, that sounds cool. So what’s the deal with C++?</p>
-</section><section><h2 class="section-heading" id="root-and-c">ROOT and C++<a class="anchor" aria-label="anchor" href="#root-and-c"></a>
-<a class="anchor" aria-label="anchor" href="#root-and-c"></a>
-</h2>
-<hr class="half-width">
-<p>In the mid-80’s, <a href="https://en.wikipedia.org/wiki/C%2B%2B" class="external-link">C++</a> extended the very
-popular <a href="https://en.wikipedia.org/wiki/C_(programming_language)" class="external-link">C
-programming language</a>, primarily with the introduction of <a href="https://en.wikipedia.org/wiki/Object-oriented_programming" class="external-link">object-oriented
-programming</a> (OOP). This programming paradigm was adopted by many
-particle physics experiments in the 1990’s and when ROOT was written, it
-was written in C++. While there are now python hooks to call the ROOT
-functions, the underlying code is all in C++.</p>
-<p>Because C++ is a compiled code, it is usually much faster than a
-scripted language like python, though that is changing with modern
-python tools. Still, since much of the original analysis and access code
-was written in C++ and calling the C++ ROOT libraries, it’s good to know
-some of the basics of ROOT, in a C++ context.</p>
-<p>Most CMS analysts interface with ROOT using python scripts and you
-may find yourself using a similar workflow. Later on in this lesson,
-we’ll walk you through some very basic python scripts and point you
-toward more in-depth tutorials, for those who want to go further.</p>
-<div id="you-still-have-choices" class="callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<div id="you-still-have-choices" class="callout-inner">
-<h3 class="callout-title">You still have choices!<a class="anchor" aria-label="anchor" href="#you-still-have-choices"></a>
-</h3>
-<div class="callout-content">
-<p>Just to emphasize, you really only <em>need</em> to use ROOT and C++
-at the early stages of analyzing CMS Open Data in the AOD (Run 1) or
-MiniAOD (Run 2) formats. These datasets require using CMS-provided tools
-that perform much better in C++ than python. However, downstream in your
-analysis or to analyze Run 2 NanoAOD files, you are welcome to use
-whatever tools and file formats you choose.</p>
-</div>
-</div>
-</div>
+<p>This lesson guides participants through applying machine learning
+techniques to CMS Open Data. It’s designed for those with some
+programming experience and an interest in machine learning.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -853,13 +710,9 @@ whatever tools and file formats you choose.</p>
 </h3>
 <div class="callout-content">
 <ul>
-<li>C++ has a reputation for being intimidating, but there are only a
-few things you need to learn to edit the open data code for your own
-uses.</li>
-<li>You can use the ROOT toolkit using both C++ and python.</li>
-<li>Some ROOT code is written in C++ to access the datafiles.</li>
-<li>People will often use simpler C++ scripts or python scripts to
-analyze reduced datasets.</li>
+<li>Introduction to machine learning in particle physics.</li>
+<li>Data preparation for machine learning analysis.</li>
+<li>Model training and evaluation techniques.</li>
 </ul>
 </div>
 </div>
@@ -868,7 +721,7 @@ analyze reduced datasets.</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-05-agc"><p>Content from <a href="05-agc.html">Introduction</a></p>
+</section></section><section id="aio-05-agc"><p>Content from <a href="05-agc.html">Advanced Generative Challenge</a></p>
 <hr>
 <p>Last updated on 2024-07-14 |
 
@@ -885,9 +738,11 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What is C++?</li>
-<li>What is ROOT?</li>
-<li>What is the point of these exercises?</li>
+<li>How can we use generative modeling techniques in particle
+physics?</li>
+<li>What are the challenges of working with older particle physics
+data?</li>
+<li>How do we validate models in this context?</li>
 </ul>
 </div>
 </div>
@@ -897,82 +752,27 @@ any links that you are not going to use.
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Learn a bit about C++ and how to compile C++ code.</li>
-<li>Learn how to use ROOT to write and read from files, using the C++
-libraries.</li>
-<li>Learn how to use ROOT to investigate data and create simple
-histograms.</li>
-<li>Explore the ROOT python libraries.</li>
+<li>Learn generative modeling techniques and their applications in
+particle physics.</li>
+<li>Understand the challenges and methods for working with older
+particle physics data.</li>
+<li>Gain experience in validating complex models.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="lets-talk-about-root">Let’s talk about ROOT!<a class="anchor" aria-label="anchor" href="#lets-talk-about-root"></a>
-<a class="anchor" aria-label="anchor" href="#lets-talk-about-root"></a>
+<section><h2 class="section-heading" id="advanced-generative-challenge">Advanced Generative Challenge<a class="anchor" aria-label="anchor" href="#advanced-generative-challenge"></a>
+<a class="anchor" aria-label="anchor" href="#advanced-generative-challenge"></a>
 </h2>
 <hr class="half-width">
-<p>From the <a href="https://root.cern/" class="external-link">ROOT website</a>:</p>
-<div id="testimonial1" class="callout testimonial">
-<div class="callout-square">
-<i class="callout-icon" data-feather="heart"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Testimonial<a class="anchor" aria-label="anchor" href="#testimonial1"></a>
-</h3>
-<div class="callout-content">
-<p><em>ROOT is a framework for data processing, born at CERN, at the
-heart of the research on high-energy physics. Every day, thousands of
-physicists use ROOT applications to analyze their data or to perform
-simulations.</em></p>
-<p>In short, ROOT is an overarching toolkit that defines a file
-structure, methods to analyze particle physics data, visualization
-tools, and is the backbone of many widely used statistical analysis tool
-kits, such as RooFit and RooStats. You don’t <em>need</em> to use ROOT
-for your own analysis, but you will have to have some familiarity with
-it when you are first accessing the open data.</p>
-</div>
-</div>
-</div>
-<p>OK, that sounds cool. So what’s the deal with C++?</p>
-</section><section><h2 class="section-heading" id="root-and-c">ROOT and C++<a class="anchor" aria-label="anchor" href="#root-and-c"></a>
-<a class="anchor" aria-label="anchor" href="#root-and-c"></a>
-</h2>
-<hr class="half-width">
-<p>In the mid-80’s, <a href="https://en.wikipedia.org/wiki/C%2B%2B" class="external-link">C++</a> extended the very
-popular <a href="https://en.wikipedia.org/wiki/C_(programming_language)" class="external-link">C
-programming language</a>, primarily with the introduction of <a href="https://en.wikipedia.org/wiki/Object-oriented_programming" class="external-link">object-oriented
-programming</a> (OOP). This programming paradigm was adopted by many
-particle physics experiments in the 1990’s and when ROOT was written, it
-was written in C++. While there are now python hooks to call the ROOT
-functions, the underlying code is all in C++.</p>
-<p>Because C++ is a compiled code, it is usually much faster than a
-scripted language like python, though that is changing with modern
-python tools. Still, since much of the original analysis and access code
-was written in C++ and calling the C++ ROOT libraries, it’s good to know
-some of the basics of ROOT, in a C++ context.</p>
-<p>Most CMS analysts interface with ROOT using python scripts and you
-may find yourself using a similar workflow. Later on in this lesson,
-we’ll walk you through some very basic python scripts and point you
-toward more in-depth tutorials, for those who want to go further.</p>
-<div id="you-still-have-choices" class="callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<div id="you-still-have-choices" class="callout-inner">
-<h3 class="callout-title">You still have choices!<a class="anchor" aria-label="anchor" href="#you-still-have-choices"></a>
-</h3>
-<div class="callout-content">
-<p>Just to emphasize, you really only <em>need</em> to use ROOT and C++
-at the early stages of analyzing CMS Open Data in the AOD (Run 1) or
-MiniAOD (Run 2) formats. These datasets require using CMS-provided tools
-that perform much better in C++ than python. However, downstream in your
-analysis or to analyze Run 2 NanoAOD files, you are welcome to use
-whatever tools and file formats you choose.</p>
-</div>
-</div>
-</div>
+<p>This project is designed for more experienced programmers looking for
+a challenging activity using older CMS data.</p>
+<p>Participants might work on a generative modeling task where they
+generate synthetic particle collision data that matches the statistical
+properties of the real data. This helps in understanding complex models
+and simulations used in high-energy physics.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -982,13 +782,9 @@ whatever tools and file formats you choose.</p>
 </h3>
 <div class="callout-content">
 <ul>
-<li>C++ has a reputation for being intimidating, but there are only a
-few things you need to learn to edit the open data code for your own
-uses.</li>
-<li>You can use the ROOT toolkit using both C++ and python.</li>
-<li>Some ROOT code is written in C++ to access the datafiles.</li>
-<li>People will often use simpler C++ scripts or python scripts to
-analyze reduced datasets.</li>
+<li>Generative modeling techniques.</li>
+<li>Challenges of working with older data.</li>
+<li>Model validation methods.</li>
 </ul>
 </div>
 </div>
