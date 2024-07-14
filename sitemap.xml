@@ -1,45 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cms-opendata-workshop.github.io/workbench-template-md/404.html</loc>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/404.html</loc>
   </url>
   <url>
-    <loc>https://cms-opendata-workshop.github.io/workbench-template-md/CODE_OF_CONDUCT.html</loc>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://cms-opendata-workshop.github.io/workbench-template-md/LICENSE.html</loc>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://cms-opendata-workshop.github.io/workbench-template-md/index.html</loc>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/aio.html</loc>
   </url>
   <url>
-    <loc>https://cms-opendata-workshop.github.io/workbench-template-md/instructor/404.html</loc>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/images.html</loc>
   </url>
   <url>
-    <loc>https://cms-opendata-workshop.github.io/workbench-template-md/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/index.html</loc>
   </url>
   <url>
-    <loc>https://cms-opendata-workshop.github.io/workbench-template-md/instructor/LICENSE.html</loc>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/404.html</loc>
   </url>
   <url>
-    <loc>https://cms-opendata-workshop.github.io/workbench-template-md/instructor/index.html</loc>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://cms-opendata-workshop.github.io/workbench-template-md/instructor/introduction.html</loc>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://cms-opendata-workshop.github.io/workbench-template-md/instructor/profiles.html</loc>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/aio.html</loc>
   </url>
   <url>
-    <loc>https://cms-opendata-workshop.github.io/workbench-template-md/instructor/reference.html</loc>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/images.html</loc>
   </url>
   <url>
-    <loc>https://cms-opendata-workshop.github.io/workbench-template-md/introduction.html</loc>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/index.html</loc>
   </url>
   <url>
-    <loc>https://cms-opendata-workshop.github.io/workbench-template-md/profiles.html</loc>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/instructor-notes.html</loc>
   </url>
   <url>
-    <loc>https://cms-opendata-workshop.github.io/workbench-template-md/reference.html</loc>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/reference.html</loc>
   </url>
 </urlset>
