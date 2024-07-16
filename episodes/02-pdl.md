@@ -1,7 +1,8 @@
+---
 title: "Particle Discovery Lab"
 teaching: 30
 exercises: 60
-
+---
 :::::::::::::::::::::::::::::::::::::: questions
 
 How can we identify different particles in collision data?
