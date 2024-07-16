@@ -18,13 +18,13 @@
   <div class="container-fluid top-nav-container">
     <div class="col-md-8">
       <div class="large-logo">
-        <img id="dpoa-logo" alt="CMS DPOA logo" src="../assets/images/dpoa-logo.png"><span class="badge text-bg-warning">
-          <abbr title="This lesson is in the alpha phase, which means that it has been taught once and lesson authors are iterating on feedback.">
-            <a href="https://cdh.carpentries.org/the-lesson-life-cycle.html#field-testing-alpha-stage" class="external-link alert-link">
-              <i aria-hidden="true" class="icon" data-feather="alert-triangle" style="border-radius: 5px"></i>
-              Alpha
+        <img id="dpoa-logo" alt="CMS DPOA logo" src="../assets/images/dpoa-logo.png"><span class="badge text-bg-info">
+          <abbr title="This lesson is in the beta phase, which means that it is ready for teaching by instructors outside of the original author team.">
+            <a href="https://cdh.carpentries.org/the-lesson-life-cycle.html#polishing-beta-stage" class="external-link alert-link">
+              <i aria-hidden="true" class="icon" data-feather="alert-circle" style="border-radius: 5px"></i>
+              Beta
             </a>
-            <span class="visually-hidden">This lesson is in the alpha phase, which means that it has been taught once and lesson authors are iterating on feedback.</span>
+            <span class="visually-hidden">This lesson is in the beta phase, which means that it is ready for teaching by instructors outside of the original author team.</span>
           </abbr>
         </span>
 
@@ -216,7 +216,7 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="01-particlediscoverylab.html">1. Particle Discovery Lab</a>
+        <a href="01-ppp.html">1. Particle Physics Playground</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -225,7 +225,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="02-ppp.html">2. Particle Physics Playground</a>
+        <a href="02-pdl.html">2. Particle Discovery Lab</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -234,7 +234,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="03-ml.html">3. Machine Learning with Open Data</a>
+        <a href="03-ml-1.html">3. Machine Learning with Open Data</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -243,7 +243,16 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="04-agc.html">4. Advanced Generative Challenge</a>
+        <a href="04-ml-2.html">4. Machine Learning with Open Data</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush6">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading6">
+        <a href="05-agc.html">5. Advanced Generative Challenge</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -290,11 +299,11 @@
         <!-- START: inst/pkgdown/templates/content-syllabus.html -->
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link float-end" href="../instructor/01-particlediscoverylab.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/01-ppp.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link float-end" href="../instructor/01-particlediscoverylab.html" rel="next">Next: Particle Discovery... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/01-ppp.html" rel="next">Next: Particle Physics... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <hr></nav><main id="main-content" class="main-content"><h1 class="schedule-heading">Summary and Schedule</h1>
       
@@ -391,23 +400,32 @@ everyone.</p>
 <div class="section level4">
 <h4 id="key-activities">Key Activities<a class="anchor" aria-label="anchor" href="#key-activities"></a></h4>
 <ol style="list-style-type: decimal"><li>
-<strong>Particle Discovery Lab</strong>: Analyze real particle
-collision data from the CMS experiment, identify different particles,
-and perform both basic and advanced data analysis tasks.</li>
+<strong>Particle Physics Playground</strong>: Link back to the
+Particle Physics Primer pre-learning lesson that Matt made, and
+encourage participants to try out different exercises exploring
+fundamental concepts in particle physics.</li>
 <li>
-<strong>Particle Physics Playground</strong>: Explore fundamental
-concepts in particle physics through practical analysis of CMS Open
-Data, including studying particle decay patterns and understanding
-particle properties.</li>
+<strong>Particle Discovery Lab</strong>: Share instructions to do
+the exercise in the Python container, git clone the repository in the
+container, and follow the instructions in either the Python script or
+the Jupyter notebook. Analyze real particle collision data from the CMS
+experiment, identify different particles, and perform both basic and
+advanced data analysis tasks.</li>
 <li>
-<strong>Machine Learning with Open Data</strong>: Apply machine
+<strong>Machine Learning 1</strong>: Introduction to using ML in
+HEP, covering initial aspects and practical applications.</li>
+<li>
+<strong>Machine Learning 2</strong>: Share the supervised and
+unsupervised learning links with instructions on which container to use.
+Include a section to discuss results and next steps, applying machine
 learning techniques to classify different types of particle collisions
 and gain practical experience in data preparation, model training, and
 evaluation.</li>
 <li>
-<strong>Advanced Generative Challenge</strong>: Tackle generative
-modeling tasks using older CMS data, create synthetic data, and validate
-complex models.</li>
+<strong>Analysis Grand Challenge</strong>: Short introduction to
+this larger exercise using up-to-the-moment HEP software tools. Provide
+the link and tackle generative modeling tasks using older CMS data,
+create synthetic data, and validate complex models.</li>
 </ol><p>By the end of the hackathon, participants will have gained valuable
 skills and insights into high-energy physics, data analysis, and machine
 learning. They will also have the opportunity to contribute to the open
@@ -457,18 +475,7 @@ any links that you are not going to use.
 <span class="visually-hidden">Duration: </span>00h 00m
 </td>
 <td>
- 1. <a href="01-particlediscoverylab.html">Particle Discovery Lab</a>
-</td>
-<td>
-How can we identify different particles in collision data?<br>What are
-the characteristics of muons and electrons in the dataset?<br>How do we
-perform basic and advanced data analysis in particle physics?
-</td>
-</tr><tr><td>
-<span class="visually-hidden">Duration: </span>01h 30m
-</td>
-<td>
- 2. <a href="02-ppp.html">Particle Physics Playground</a>
+ 1. <a href="01-ppp.html">Particle Physics Playground</a>
 </td>
 <td>
 What are the fundamental concepts in particle physics?<br>How can we
@@ -476,10 +483,21 @@ analyze particle decay patterns?<br>What tools are available for
 practical analysis of particle physics data?
 </td>
 </tr><tr><td>
+<span class="visually-hidden">Duration: </span>00h 05m
+</td>
+<td>
+ 2. <a href="02-pdl.html">Particle Discovery Lab</a>
+</td>
+<td>
+How can we identify different particles in collision data?<br>What are
+the characteristics of muons in the dataset?<br>How do we perform basic
+and advanced data analysis in particle physics?
+</td>
+</tr><tr><td>
 <span class="visually-hidden">Duration: </span>01h 35m
 </td>
 <td>
- 3. <a href="03-ml.html">Machine Learning with Open Data</a>
+ 3. <a href="03-ml-1.html">Machine Learning with Open Data</a>
 </td>
 <td>
 How can machine learning be applied to particle physics data?<br>What
@@ -491,7 +509,19 @@ this context?
 <span class="visually-hidden">Duration: </span>01h 40m
 </td>
 <td>
- 4. <a href="04-agc.html">Advanced Generative Challenge</a>
+ 4. <a href="04-ml-2.html">Machine Learning with Open Data</a>
+</td>
+<td>
+How can machine learning be applied to particle physics data?<br>What
+are the steps involved in preparing data for machine learning
+analysis?<br>How do we train and evaluate a machine learning model in
+this context?
+</td>
+</tr><tr><td>
+<span class="visually-hidden">Duration: </span>01h 45m
+</td>
+<td>
+ 5. <a href="05-agc.html">Advanced Generative Challenge</a>
 </td>
 <td>
 How can we use generative modeling techniques in particle
@@ -499,7 +529,7 @@ physics?<br>What are the challenges of working with older particle
 physics data?<br>How do we validate models in this context?
 </td>
 </tr><tr><td>
-<span class="visually-hidden">Duration: </span>01h 45m
+<span class="visually-hidden">Duration: </span>01h 50m
 </td>
 <td>
 Finish
@@ -525,11 +555,11 @@ any links that you are not going to use.
 
 
       </section></main><nav class="bottom-pagination mx-md-4" aria-label="Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link float-end" href="../instructor/01-particlediscoverylab.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/01-ppp.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link float-end" href="../instructor/01-particlediscoverylab.html" rel="next">Next: Particle Discovery... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/01-ppp.html" rel="next">Next: Particle Physics... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
     </nav></div>
 <!-- END  : inst/pkgdown/templates/content-syllabus.html -->
