@@ -22,15 +22,15 @@ exercises: 0
 
 ## Particle Physics Playground
 
-This lesson offers a variety of exercises designed to help undergraduates understand fundamental concepts in particle physics through practical analysis of CMS Open Data.
+This activity offers a variety of exercises designed to help undergraduates understand fundamental concepts in particle physics through practical analysis of CMS Open Data.
 
 ### Overview
 
 The Particle Physics Playground provides an engaging and interactive way for participants to delve into the core principles of particle physics. By working with real CMS Open Data, students will enhance their theoretical knowledge through hands-on experience.
 
-### Pre-learning Lesson
+## Pre-learning Lesson
 
-Before diving into the Particle Physics Playground, participants are encouraged to review the [Particle Physics Primer pre-learning lesson](https://cms-opendata-workshop.github.io/workshop2024-lesson-particle-physics-primer/instructor/index.html). This foundational lesson will prepare you for the exercises ahead.
+Participants are encouraged to review the [Particle Physics Primer pre-learning lesson](https://cms-opendata-workshop.github.io/workshop2024-lesson-particle-physics-primer/instructor/index.html). This foundational lesson is equipped with lectures and exercises covering the following topics:
 
 ### Fundamental Concepts
 
@@ -42,12 +42,32 @@ One of the main tasks in this lesson is to analyze particle decay patterns. By s
 
 ### Practical Analysis Tools
 
-Participants will be introduced to various tools and techniques used in particle physics analysis. This includes the use of ROOT for data analysis, as well as other software and frameworks commonly employed in the field. The goal is to equip students with the practical skills needed to conduct their own analyses and contribute to ongoing research.
+Participants will be introduced to various tools and techniques used in particle physics analysis. This includes the use of Python and Jupyter notebooks hosted on Google Colab for data analysis, as well as simplified data formats provided by the Particle Physics Playground website. The goal is to equip students with the practical skills needed to conduct their own analyses and contribute to ongoing research.
+
+## Recommendations
+
+### Activity Suggestions
+
+1. **Watch the Lectures**: Start by watching the first three lectures by Dr. Allison Hall to build a strong theoretical foundation.
+2. **Try the Exercises**: Attempt the associated exercises to test your understanding and apply what you've learned.
+3. **Explore the Toy Analyses**: Engage with the toy analyses to gain hands-on experience with real CMS data, focusing on:
+   - Working with Colab and understanding data formats.
+   - Learning about particle lifetimes and identifying detectable particles.
+   - Calculating masses using 4-vectors and creating histograms.
+   - Discovering new particles by analyzing decay products.
+
+4. **Discuss and Collaborate**: Use discussion forums or collaborative platforms to share your findings, ask questions, and work with peers.
+
+### Additional Resources
+
+- **Particle Physics Primer Videos**: Watch public-oriented videos for a broad overview.
+- **Standard Model References**: Review materials on the Standard Model and its historical development.
+- **Advanced Lectures**: For those interested, watch the remaining lectures covering neutrino physics and dark matter.
 
 ::::::::::::::::::::::::::::: callout
 ## You Have Choices!
 
-While ROOT and C++ are essential for early-stage analysis of CMS Open Data in the AOD (Run 1) or MiniAOD (Run 2) formats, participants can use other tools and file formats for downstream analysis or for analyzing Run 2 NanoAOD files. Feel free to choose the tools that best suit your needs and preferences.
+While Python and Jupyter notebooks are the primary tools for this activity, feel free to explore other tools and file formats that suit your needs. The goal is to learn and apply particle physics analysis techniques in a way that works best for you.
 :::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
