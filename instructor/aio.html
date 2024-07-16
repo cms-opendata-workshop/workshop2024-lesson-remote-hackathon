@@ -265,7 +265,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="03-ml-1.html">3. Machine Learning with Open Data</a>
+        <a href="03-ml-1.html">3. Introduction to Machine Learning in HEP</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -277,7 +277,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="04-ml-2.html">4. Machine Learning with Open Data</a>
+        <a href="04-ml-2.html">4. Machine Learning Practical Applications</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -397,7 +397,7 @@ physics data.</li>
 <a class="anchor" aria-label="anchor" href="#particle-physics-playground"></a>
 </h2>
 <hr class="half-width">
-<p>This lesson offers a variety of exercises designed to help
+<p>This activity offers a variety of exercises designed to help
 undergraduates understand fundamental concepts in particle physics
 through practical analysis of CMS Open Data.</p>
 <div class="section level3">
@@ -408,14 +408,13 @@ way for participants to delve into the core principles of particle
 physics. By working with real CMS Open Data, students will enhance their
 theoretical knowledge through hands-on experience.</p>
 </div>
-<div class="section level3">
-<h3 id="pre-learning-lesson">Pre-learning Lesson<a class="anchor" aria-label="anchor" href="#pre-learning-lesson"></a>
-</h3>
-<p>Before diving into the Particle Physics Playground, participants are
-encouraged to review the <a href="https://cms-opendata-workshop.github.io/workshop2024-lesson-particle-physics-primer/instructor/index.html" class="external-link">Particle
-Physics Primer pre-learning lesson</a>. This foundational lesson will
-prepare you for the exercises ahead.</p>
-</div>
+</section><section><h2 class="section-heading" id="pre-learning-lesson">Pre-learning Lesson<a class="anchor" aria-label="anchor" href="#pre-learning-lesson"></a>
+<a class="anchor" aria-label="anchor" href="#pre-learning-lesson"></a>
+</h2>
+<hr class="half-width">
+<p>Participants are encouraged to review the <a href="https://cms-opendata-workshop.github.io/workshop2024-lesson-particle-physics-primer/instructor/index.html" class="external-link">Particle
+Physics Primer pre-learning lesson</a>. This foundational lesson is
+equipped with lectures and exercises covering the following topics:</p>
 <div class="section level3">
 <h3 id="fundamental-concepts">Fundamental Concepts<a class="anchor" aria-label="anchor" href="#fundamental-concepts"></a>
 </h3>
@@ -437,11 +436,58 @@ lifetimes, and calculating branching ratios.</p>
 <h3 id="practical-analysis-tools">Practical Analysis Tools<a class="anchor" aria-label="anchor" href="#practical-analysis-tools"></a>
 </h3>
 <p>Participants will be introduced to various tools and techniques used
-in particle physics analysis. This includes the use of ROOT for data
-analysis, as well as other software and frameworks commonly employed in
-the field. The goal is to equip students with the practical skills
-needed to conduct their own analyses and contribute to ongoing
-research.</p>
+in particle physics analysis. This includes the use of Python and
+Jupyter notebooks hosted on Google Colab for data analysis, as well as
+simplified data formats provided by the Particle Physics Playground
+website. The goal is to equip students with the practical skills needed
+to conduct their own analyses and contribute to ongoing research.</p>
+</div>
+</section><section><h2 class="section-heading" id="recommendations">Recommendations<a class="anchor" aria-label="anchor" href="#recommendations"></a>
+<a class="anchor" aria-label="anchor" href="#recommendations"></a>
+</h2>
+<hr class="half-width">
+<div class="section level3">
+<h3 id="activity-suggestions">Activity Suggestions<a class="anchor" aria-label="anchor" href="#activity-suggestions"></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Watch the Lectures</strong>: Start by watching the first
+three lectures by Dr. Allison Hall to build a strong theoretical
+foundation.</li>
+<li>
+<strong>Try the Exercises</strong>: Attempt the associated exercises
+to test your understanding and apply what you’ve learned.</li>
+<li>
+<strong>Explore the Toy Analyses</strong>: Engage with the toy
+analyses to gain hands-on experience with real CMS data, focusing on:
+<ul>
+<li>Working with Colab and understanding data formats.</li>
+<li>Learning about particle lifetimes and identifying detectable
+particles.</li>
+<li>Calculating masses using 4-vectors and creating histograms.</li>
+<li>Discovering new particles by analyzing decay products.</li>
+</ul>
+</li>
+<li>
+<strong>Discuss and Collaborate</strong>: Use discussion forums or
+collaborative platforms to share your findings, ask questions, and work
+with peers.</li>
+</ol>
+</div>
+<div class="section level3">
+<h3 id="additional-resources">Additional Resources<a class="anchor" aria-label="anchor" href="#additional-resources"></a>
+</h3>
+<ul>
+<li>
+<strong>Particle Physics Primer Videos</strong>: Watch
+public-oriented videos for a broad overview.</li>
+<li>
+<strong>Standard Model References</strong>: Review materials on the
+Standard Model and its historical development.</li>
+<li>
+<strong>Advanced Lectures</strong>: For those interested, watch the
+remaining lectures covering neutrino physics and dark matter.</li>
+</ul>
 <div id="you-have-choices" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -450,11 +496,10 @@ research.</p>
 <h3 class="callout-title">You Have Choices!<a class="anchor" aria-label="anchor" href="#you-have-choices"></a>
 </h3>
 <div class="callout-content">
-<p>While ROOT and C++ are essential for early-stage analysis of CMS Open
-Data in the AOD (Run 1) or MiniAOD (Run 2) formats, participants can use
-other tools and file formats for downstream analysis or for analyzing
-Run 2 NanoAOD files. Feel free to choose the tools that best suit your
-needs and preferences.</p>
+<p>While Python and Jupyter notebooks are the primary tools for this
+activity, feel free to explore other tools and file formats that suit
+your needs. The goal is to learn and apply particle physics analysis
+techniques in a way that works best for you.</p>
 </div>
 </div>
 </div>
@@ -495,12 +540,9 @@ any links that you are not going to use.
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
-<ul>
-<li>How can we identify different particles in collision data?</li>
-<li>What are the characteristics of muons in the dataset?</li>
-<li>How do we perform basic and advanced data analysis in particle
-physics?</li>
-</ul>
+<p>How can we identify different particles in collision data? What are
+the characteristics of muons in the dataset? How do we perform basic and
+advanced data analysis in particle physics?</p>
 </div>
 </div>
 </div>
@@ -508,21 +550,18 @@ physics?</li>
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<ul>
-<li>Reconstruct decays of an unknown particle X to 2 muons.</li>
-<li>Use histograms to display the calculated mass of particle X.</li>
-<li>Learn to fit and subtract background contributions from data.</li>
-<li>Understand uncertainty propagation throughout the analysis.</li>
-<li>Identify the discovered particle and compare its properties to known
-values.</li>
-</ul>
+<p>Reconstruct decays of an unknown particle X to 2 muons. Use
+histograms to display the calculated mass of particle X. Learn to fit
+and subtract background contributions from data. Understand uncertainty
+propagation throughout the analysis. Identify the discovered particle
+and compare its properties to known values.</p>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="particle-discovery-lab-for-students">Particle Discovery Lab (for students!)<a class="anchor" aria-label="anchor" href="#particle-discovery-lab-for-students"></a>
-<a class="anchor" aria-label="anchor" href="#particle-discovery-lab-for-students"></a>
+<section><h2 class="section-heading" id="particle-discovery-lab">Particle Discovery Lab<a class="anchor" aria-label="anchor" href="#particle-discovery-lab"></a>
+<a class="anchor" aria-label="anchor" href="#particle-discovery-lab"></a>
 </h2>
 <hr class="half-width">
 <p>Participants will analyze real particle collision data from the CMS
@@ -530,15 +569,15 @@ experiment. They will identify different particles, such as muons and
 electrons, by examining the data’s characteristics. This exercise helps
 students understand how physicists discover and study fundamental
 particles.</p>
-<div class="section level3">
-<h3 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
-</h3>
+</section><section><h2 class="section-heading" id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
+<a class="anchor" aria-label="anchor" href="#overview"></a>
+</h2>
+<hr class="half-width">
 <p>The Particle Discovery Lab is designed to introduce participants to
 the fascinating world of particle physics by working with actual data
 from the CMS experiment. This hands-on experience will provide valuable
 insights into the process of particle identification and the analysis
 techniques used by physicists.</p>
-</div>
 <div class="section level3">
 <h3 id="identifying-particles">Identifying Particles<a class="anchor" aria-label="anchor" href="#identifying-particles"></a>
 </h3>
@@ -557,34 +596,56 @@ plotting histograms and calculating basic statistics. As they progress,
 more advanced techniques will be introduced, including fitting data to
 theoretical models and performing complex statistical analyses.</p>
 </div>
-<div class="section level3">
-<h3 id="instructions-for-the-exercise">Instructions for the Exercise<a class="anchor" aria-label="anchor" href="#instructions-for-the-exercise"></a>
-</h3>
+</section><section><h2 class="section-heading" id="instructions-for-the-exercise">Instructions for the Exercise<a class="anchor" aria-label="anchor" href="#instructions-for-the-exercise"></a>
+<a class="anchor" aria-label="anchor" href="#instructions-for-the-exercise"></a>
+</h2>
+<hr class="half-width">
 <p>To get started with the Particle Discovery Lab, follow these
 steps:</p>
 <ol style="list-style-type: decimal">
-<li>
-<strong>Set Up the Python Container</strong>: Ensure you are working
-within the provided Python container environment.</li>
-<li>
-<strong>Clone the Repository</strong>: Open a terminal in the Python
-container and run the following command to clone the repository: ```bash
-git clone <a href="https://github.com/bethel-physics/ParticleDiscoveryLab" class="external-link uri">https://github.com/bethel-physics/ParticleDiscoveryLab</a>
-</li>
-<li>
-<strong>Follow the Instructions</strong>: Navigate to the cloned
-repository directory and follow the instructions provided in either the
-Python script or the Jupyter notebook to complete the exercise.</li>
+<li>Set Up the Python Container: Ensure you are working within the
+provided Python container environment.</li>
+<li>Clone the Repository: Open a terminal in the Python container and
+run the following command to clone the repository:</li>
 </ol>
-</div>
-<div class="section level3">
-<h3 id="visualize-with-cms-spy-webgl">Visualize with CMS Spy WebGL<a class="anchor" aria-label="anchor" href="#visualize-with-cms-spy-webgl"></a>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">git</span> clone <span class="at">-b</span> instructors https://github.com/bethel-physics/ParticleDiscoveryLab.git</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="bu">cd</span> ParticleDiscoveryLab/PythonAnalysis</span></code></pre>
+</div>
+<ol start="3" style="list-style-type: decimal">
+<li>Run the Analysis: Navigate to the cloned repository directory and
+follow the instructions provided in either the Python script or the
+Jupyter notebook to complete the exercise.</li>
+</ol>
+<ul>
+<li>Script: Run the following command:</li>
+</ul>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">python</span> MuonAnalysis_student.py</span></code></pre>
+</div>
+<ul>
+<li><p>Jupyter Notebook:</p></li>
+<li><p>Start Jupyter Lab:</p></li>
+</ul>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">jupyter</span> lab</span></code></pre>
+</div>
+<ul>
+<li>Open MuonAnalysis_student.ipynb and follow the instructions.</li>
+</ul></section><section><h2 class="section-heading" id="visualize-with-cms-spy-webgl">Visualize with CMS Spy WebGL<a class="anchor" aria-label="anchor" href="#visualize-with-cms-spy-webgl"></a>
+<a class="anchor" aria-label="anchor" href="#visualize-with-cms-spy-webgl"></a>
+</h2>
+<hr class="half-width">
 <p>To enhance your understanding and visualization of the particle
-collision events, use the <a href="https://opendata.cern.ch/visualise/events/cms#" class="external-link">CMS Spy WebGL
-visualizer</a>. This tool provides a 3D visualization of the CMS
-collision data, allowing you to better grasp the spatial distribution
-and interactions of particles.</p>
+collision events, use the CMS Spy WebGL visualizer. This tool provides a
+3D visualization of the CMS collision data, allowing you to better grasp
+the spatial distribution and interactions of particles.</p>
 <div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -602,6 +663,40 @@ needs and preferences.</p>
 </div>
 </div>
 </div>
+<div class="section level3">
+<h3 id="recommendations-for-hackathon-activities">Recommendations for Hackathon Activities<a class="anchor" aria-label="anchor" href="#recommendations-for-hackathon-activities"></a>
+</h3>
+<p>Participants in the hackathon can leverage their skills and the
+themes explored in the Particle Discovery Lab to tackle innovative
+challenges and projects. Here are some suggested activities:</p>
+<ul>
+<li>
+<strong>Advanced Particle Identification Algorithms</strong>:
+Develop and implement advanced algorithms for particle identification
+using collision data.</li>
+<li>
+<strong>Enhanced Data Visualization Tools</strong>: Create
+interactive tools for exploring and analyzing CMS collision data in
+real-time.</li>
+<li>
+<strong>Integration of Machine Learning</strong>: Apply machine
+learning techniques to automate data analysis and improve particle
+identification accuracy.</li>
+<li>
+<strong>Collaborative Analysis Projects</strong>: Form teams to
+tackle complex analysis challenges or develop new methodologies for
+studying particle interactions.</li>
+<li>
+<strong>Educational Outreach and Visualization</strong>: Design
+educational materials or demos that explain particle physics principles
+using CMS collision data.</li>
+<li>
+<strong>Open Data Innovation</strong>: Develop tools or platforms to
+enhance accessibility and usability of CMS Open Data for the scientific
+community.</li>
+</ul>
+<p>These activities encourage innovation, collaboration, and exploration
+of particle physics concepts beyond the basic lab exercises.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -621,7 +716,7 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
 </div>
-</section></section><section id="aio-03-ml-1"><p>Content from <a href="03-ml-1.html">Machine Learning with Open Data</a></p>
+</section></section><section id="aio-03-ml-1"><p>Content from <a href="03-ml-1.html">Introduction to Machine Learning in HEP</a></p>
 <hr>
 <p>Last updated on 2024-07-16 |
 
@@ -666,76 +761,162 @@ learning model.</li>
 <div class="section level1">
 <h1 id="introduction-to-machine-learning-in-hep">Introduction to Machine Learning in HEP<a class="anchor" aria-label="anchor" href="#introduction-to-machine-learning-in-hep"></a>
 </h1>
-<p>This lesson guides participants through applying machine learning
-techniques to CMS Open Data. It’s designed for those with some
-programming experience and an interest in machine learning.</p>
+<p>Machine learning (ML) is a powerful tool for extracting insights from
+complex datasets, making it invaluable in high-energy physics (HEP)
+research. This lesson introduces participants to applying ML techniques
+to CMS Open Data, providing a structured approach for beginners with
+some programming experience.</p>
 <div class="section level3">
 <h3 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
 </h3>
-<p>The Machine Learning in High-Energy Physics (HEP) activity provides
-participants with an introduction to the exciting intersection of
-machine learning and particle physics. By leveraging CMS Open Data,
-participants will learn how to apply machine learning algorithms to
-real-world data, enhancing their analytical skills and understanding of
-both fields.</p>
-<p>Machine learning plays a crucial role in analyzing vast amounts of
-data generated by experiments in High-Energy Physics (HEP). It enables
-researchers to extract meaningful insights, classify particle
-collisions, and discover new physics phenomena efficiently.</p>
+<p>The Machine Learning in High-Energy Physics (HEP) activity bridges
+the gap between data science and particle physics, utilizing CMS Open
+Data to explore real-world applications. Participants will learn to
+leverage ML algorithms to analyze particle collision data, enabling them
+to classify events, discover new particles, and enhance their
+understanding of fundamental physics.</p>
 </div>
+<div class="section level3">
+<h3 id="prerequisites">Prerequisites<a class="anchor" aria-label="anchor" href="#prerequisites"></a>
+</h3>
+<p>Before diving into ML in HEP, participants should have a basic
+understanding of: - Programming fundamentals (Python recommended) - Data
+handling and visualization - Elementary statistical concepts (mean,
+variance, etc.)</p>
 </div>
-<div class="section level1">
-<h1 id="data-preparation">Data Preparation<a class="anchor" aria-label="anchor" href="#data-preparation"></a>
-</h1>
-<p>A crucial step in any machine learning project is data preparation.
-Participants will learn how to clean and preprocess CMS Open Data to
-make it suitable for machine learning algorithms. This includes handling
-missing values, normalizing data, and creating training and test
-datasets.</p>
-<div class="section level2">
-<h2 id="supervised-learning-in-hep">Supervised Learning in HEP<a class="anchor" aria-label="anchor" href="#supervised-learning-in-hep"></a>
-</h2>
-<ul>
-<li>Definition: Supervised learning involves training a model on a
-labeled dataset, where each input data point is paired with its
-corresponding target label or output.</li>
-<li>Objective: The goal is to learn a mapping from inputs to outputs,
-based on the labeled examples provided during training.</li>
-<li>Examples: Classification (predicting categories), regression
-(predicting continuous values), and sequence prediction tasks are common
-supervised learning problems.</li>
-<li>Process: Models are trained using algorithms that minimize the error
-between predicted and actual outputs, adjusting parameters to improve
-accuracy.</li>
-</ul>
+<div class="section level3">
+<h3 id="detailed-concepts-and-steps">Detailed Concepts and Steps<a class="anchor" aria-label="anchor" href="#detailed-concepts-and-steps"></a>
+</h3>
 </div>
 <div class="section level2">
-<h2 id="unsupervised-learning-in-hep">Unsupervised Learning in HEP<a class="anchor" aria-label="anchor" href="#unsupervised-learning-in-hep"></a>
+<h2 id="data-acquisition-and-understanding">1. Data Acquisition and Understanding<a class="anchor" aria-label="anchor" href="#data-acquisition-and-understanding"></a>
 </h2>
+<div class="section level3">
+<h3 id="cms-open-data-overview">CMS Open Data Overview<a class="anchor" aria-label="anchor" href="#cms-open-data-overview"></a>
+</h3>
 <ul>
-<li>Definition: Unsupervised learning involves training a model on an
-unlabeled dataset, where the algorithm tries to identify patterns,
-relationships, or structures in the data without explicit guidance.</li>
-<li>Objective: The goal is to explore the data and extract meaningful
-insights, such as clusters, associations, or anomalies.</li>
-<li>Examples: Clustering (grouping similar data points), anomaly
-detection (identifying unusual patterns), and dimensionality reduction
-(reducing the number of features while preserving important information)
-are common unsupervised learning tasks.</li>
-<li>Process: Algorithms in unsupervised learning rely on statistical
-properties of the data to uncover patterns or structures. They do not
-aim to predict specific outputs but rather to understand the inherent
-structure of the data.</li>
+<li>Accessing and understanding the CMS Open Data repository.</li>
+<li>Types of datasets available (e.g., AOD, MiniAOD, NanoAOD) and their
+differences.</li>
+<li>Introduction to the CMS experiment and its detectors.</li>
 </ul>
 </div>
 </div>
+<div class="section level2">
+<h2 id="data-preparation">2. Data Preparation<a class="anchor" aria-label="anchor" href="#data-preparation"></a>
+</h2>
+<div class="section level3">
+<h3 id="cleaning-and-preprocessing">Cleaning and Preprocessing<a class="anchor" aria-label="anchor" href="#cleaning-and-preprocessing"></a>
+</h3>
+<ul>
+<li>Handling missing data points and outliers.</li>
+<li>Normalizing data to ensure consistency across features.</li>
+<li>Exploratory data analysis (EDA) to understand distributions and
+correlations.</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="feature-engineering">Feature Engineering<a class="anchor" aria-label="anchor" href="#feature-engineering"></a>
+</h3>
+<ul>
+<li>Selecting relevant features for ML models.</li>
+<li>Creating new features to enhance model performance.</li>
+<li>Dimensionality reduction techniques (PCA, t-SNE) for visualization
+and model efficiency.</li>
+</ul>
+</div>
+</div>
+<div class="section level2">
+<h2 id="supervised-learning-in-hep">3. Supervised Learning in HEP<a class="anchor" aria-label="anchor" href="#supervised-learning-in-hep"></a>
+</h2>
+<div class="section level3">
+<h3 id="basics-of-supervised-learning">Basics of Supervised Learning<a class="anchor" aria-label="anchor" href="#basics-of-supervised-learning"></a>
+</h3>
+<ul>
+<li>Understanding labeled datasets and target variables.</li>
+<li>Classification tasks: distinguishing particle types (e.g., muons,
+electrons).</li>
+<li>Regression tasks: predicting particle properties (e.g., energy,
+momentum).</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="model-selection-and-training">Model Selection and Training<a class="anchor" aria-label="anchor" href="#model-selection-and-training"></a>
+</h3>
+<ul>
+<li>Choosing appropriate algorithms (e.g., Decision Trees, Random
+Forests, Neural Networks).</li>
+<li>Cross-validation techniques to optimize model performance.</li>
+<li>Hyperparameter tuning to fine-tune model behavior.</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="model-evaluation">Model Evaluation<a class="anchor" aria-label="anchor" href="#model-evaluation"></a>
+</h3>
+<ul>
+<li>Metrics: accuracy, precision, recall, F1-score.</li>
+<li>Confusion matrices and ROC curves for performance
+visualization.</li>
+<li>Interpreting results and refining models based on feedback.</li>
+</ul>
+</div>
+</div>
+<div class="section level2">
+<h2 id="unsupervised-learning-in-hep">4. Unsupervised Learning in HEP<a class="anchor" aria-label="anchor" href="#unsupervised-learning-in-hep"></a>
+</h2>
+<div class="section level3">
+<h3 id="basics-of-unsupervised-learning">Basics of Unsupervised Learning<a class="anchor" aria-label="anchor" href="#basics-of-unsupervised-learning"></a>
+</h3>
+<ul>
+<li>Clustering algorithms (K-means, DBSCAN) for grouping similar
+events.</li>
+<li>Anomaly detection techniques to identify unusual data points.</li>
+<li>Dimensionality reduction methods (PCA, LDA) for visualizing
+high-dimensional data.</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="applications-in-particle-physics">Applications in Particle Physics<a class="anchor" aria-label="anchor" href="#applications-in-particle-physics"></a>
+</h3>
+<ul>
+<li>Discovering new particles through anomaly detection.</li>
+<li>Grouping events based on similar characteristics (clustering).</li>
+<li>Simplifying complex datasets for further analysis.</li>
+</ul>
+</div>
+</div>
+<div class="section level2">
+<h2 id="advanced-topics-and-applications">5. Advanced Topics and Applications<a class="anchor" aria-label="anchor" href="#advanced-topics-and-applications"></a>
+</h2>
+<div class="section level3">
+<h3 id="deep-learning-and-neural-networks">Deep Learning and Neural Networks<a class="anchor" aria-label="anchor" href="#deep-learning-and-neural-networks"></a>
+</h3>
+<ul>
+<li>Introduction to deep learning architectures (CNNs, RNNs).</li>
+<li>Applications in image analysis (e.g., detector images) and
+sequential data (e.g., event sequences).</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="reinforcement-learning">Reinforcement Learning<a class="anchor" aria-label="anchor" href="#reinforcement-learning"></a>
+</h3>
+<ul>
+<li>Exploring dynamic decision-making processes in particle physics
+experiments.</li>
+<li>Potential applications in optimizing experimental setups and data
+collection strategies.</li>
+</ul>
+</div>
+</div>
+</div>
 <div class="section level1">
-<h1 id="model-training-and-evaluation">Model Training and Evaluation<a class="anchor" aria-label="anchor" href="#model-training-and-evaluation"></a>
+<h1 id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a>
 </h1>
-<p>Participants will gain hands-on experience in training and evaluating
-machine learning models. This includes selecting appropriate algorithms,
-tuning hyperparameters, and assessing model performance using metrics
-such as accuracy, precision, recall, and F1 score.</p>
+<p>The Machine Learning with Open Data lesson equips participants with
+fundamental skills to apply ML techniques effectively in high-energy
+physics research. By mastering data preparation, model training, and
+evaluation, participants gain insights into both machine learning
+principles and their practical applications in particle physics.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -746,8 +927,10 @@ such as accuracy, precision, recall, and F1 score.</p>
 <div class="callout-content">
 <ul>
 <li>Introduction to machine learning in particle physics.</li>
-<li>Data preparation for machine learning analysis.</li>
-<li>Model training and evaluation techniques.</li>
+<li>Comprehensive data preparation for machine learning analysis.</li>
+<li>Supervised and unsupervised learning techniques specific to
+HEP.</li>
+<li>Advanced ML applications in particle physics research.</li>
 </ul>
 </div>
 </div>
@@ -756,7 +939,7 @@ such as accuracy, precision, recall, and F1 score.</p>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</div></section><section id="aio-04-ml-2"><p>Content from <a href="04-ml-2.html">Machine Learning with Open Data</a></p>
+</div></section><section id="aio-04-ml-2"><p>Content from <a href="04-ml-2.html">Machine Learning Practical Applications</a></p>
 <hr>
 <p>Last updated on 2024-07-16 |
 
@@ -798,68 +981,101 @@ learning model.</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="practical-application">Practical Application<a class="anchor" aria-label="anchor" href="#practical-application"></a>
-<a class="anchor" aria-label="anchor" href="#practical-application"></a>
+<section><h2 class="section-heading" id="practical-application-of-machine-learning-in-particle-physics">Practical Application of Machine Learning in Particle Physics<a class="anchor" aria-label="anchor" href="#practical-application-of-machine-learning-in-particle-physics"></a>
+<a class="anchor" aria-label="anchor" href="#practical-application-of-machine-learning-in-particle-physics"></a>
 </h2>
 <hr class="half-width">
-<p>CNNs (Convolutional Neural Networks) and autoencoders are both types
-of neural networks, but they serve different purposes and have distinct
-architectures:</p>
+<p>Machine learning techniques, such as Convolutional Neural Networks
+(CNNs) and autoencoders, play pivotal roles in analyzing particle
+physics data. This section provides insights into their architectures,
+training processes, and practical applications within the field.</p>
 <div class="section level3">
-<h3 id="cnn-convolutional-neural-network">CNN (Convolutional Neural Network):<a class="anchor" aria-label="anchor" href="#cnn-convolutional-neural-network"></a>
+<h3 id="convolutional-neural-networks-cnns">Convolutional Neural Networks (CNNs)<a class="anchor" aria-label="anchor" href="#convolutional-neural-networks-cnns"></a>
+</h3>
+<div class="section level4">
+<h4 id="purpose-and-architecture">Purpose and Architecture<a class="anchor" aria-label="anchor" href="#purpose-and-architecture"></a>
+</h4>
+<p>CNNs are specialized neural networks designed for processing
+grid-like data, such as images. In particle physics, CNNs are
+instrumental in tasks requiring image classification, object detection,
+and image segmentation:</p>
+<ul>
+<li>
+<strong>Purpose</strong>: CNNs excel in supervised learning
+scenarios where labeled data is available for training.</li>
+<li>
+<strong>Architecture</strong>: They comprise convolutional layers
+that extract features hierarchically, pooling layers for spatial
+dimension reduction, and dense layers for final classification.</li>
+<li>
+<strong>Training</strong>: CNNs learn through backpropagation,
+adjusting weights to minimize classification error or regression
+loss.</li>
+<li>
+<strong>Applications</strong>: In particle physics, CNNs are used to
+classify particle types, analyze detector images for anomalies, and
+segment regions of interest in collision data.</li>
+</ul>
+</div>
+</div>
+<div class="section level3">
+<h3 id="autoencoders">Autoencoders<a class="anchor" aria-label="anchor" href="#autoencoders"></a>
+</h3>
+<div class="section level4">
+<h4 id="purpose-and-architecture-1">Purpose and Architecture<a class="anchor" aria-label="anchor" href="#purpose-and-architecture-1"></a>
+</h4>
+<p>Autoencoders are unsupervised learning models that learn efficient
+data representations without explicit supervision. They are versatile in
+particle physics for tasks such as dimensionality reduction, anomaly
+detection, and feature extraction:</p>
+<ul>
+<li>
+<strong>Purpose</strong>: Autoencoders are adept at learning from
+unlabeled data to capture underlying patterns or compress data
+representations.</li>
+<li>
+<strong>Architecture</strong>: They consist of an encoder network to
+compress input into a latent space and a decoder network to reconstruct
+the input from this representation.</li>
+<li>
+<strong>Training</strong>: Autoencoders minimize reconstruction
+error during training, optimizing parameters to improve data
+reconstruction quality.</li>
+<li>
+<strong>Applications</strong>: In particle physics, autoencoders are
+used to denoise detector data, detect rare events or anomalies in
+experimental data, and extract meaningful features for subsequent
+analysis.</li>
+</ul>
+</div>
+</div>
+<div class="section level3">
+<h3 id="key-differences">Key Differences<a class="anchor" aria-label="anchor" href="#key-differences"></a>
 </h3>
 <ul>
-<li>Purpose: CNNs are primarily used for supervised learning tasks such
-as image classification, object detection, and image segmentation.</li>
-<li>Architecture: CNNs consist of convolutional layers that apply
-learnable filters to input data, capturing spatial hierarchies of
-features. They typically include pooling layers to reduce spatial
-dimensions and dense (fully connected) layers for final classification
-or regression.</li>
-<li>Training: CNNs are trained with labeled data, optimizing parameters
-to minimize classification error or regression loss.</li>
-<li>Applications: CNNs are widely used in computer vision tasks where
-spatial relationships and local patterns in data (such as images) are
-important.</li>
+<li>
+<strong>Supervised vs. Unsupervised</strong>: CNNs require labeled
+data for training (supervised), while autoencoders learn from unlabeled
+data (unsupervised).</li>
+<li>
+<strong>Output</strong>: CNNs produce predictions based on input
+data labels (classification/regression), whereas autoencoders
+reconstruct input data or learn compressed representations.</li>
+<li>
+<strong>Use Cases</strong>: CNNs are suitable for tasks requiring
+precise classification or segmentation in structured data like detector
+images. Autoencoders excel in exploratory tasks, anomaly detection, and
+dimensionality reduction in complex datasets.</li>
 </ul>
 </div>
 <div class="section level3">
-<h3 id="autoencoders">Autoencoders:<a class="anchor" aria-label="anchor" href="#autoencoders"></a>
+<h3 id="practical-considerations">Practical Considerations<a class="anchor" aria-label="anchor" href="#practical-considerations"></a>
 </h3>
-<ul>
-<li>Purpose: Autoencoders are used for unsupervised learning tasks such
-as dimensionality reduction, feature learning, and anomaly
-detection.</li>
-<li>Architecture: An autoencoder consists of an encoder network that
-compresses the input data into a latent representation and a decoder
-network that reconstructs the input from this representation.
-Convolutional layers can be used in convolutional autoencoders (CAEs)
-for image data.</li>
-<li>Training: Autoencoders are trained on unlabeled data, learning to
-reconstruct the input data effectively. They are optimized based on
-reconstruction error or other metrics that measure the quality of the
-reconstructed output.</li>
-<li>Applications: Autoencoders are applied in tasks where finding
-underlying patterns in data or reducing its dimensionality is
-beneficial, such as in denoising data, anomaly detection, and feature
-extraction. Key Differences:</li>
-</ul>
-</div>
-<div class="section level3">
-<h3 id="supervised-vs-unsupervised">Supervised vs Unsupervised:<a class="anchor" aria-label="anchor" href="#supervised-vs-unsupervised"></a>
-</h3>
-<ul>
-<li>CNNs are supervised learning models that require labeled data for
-training, while autoencoders are unsupervised models that learn from
-unlabeled data.</li>
-<li>Output: CNNs produce predictions (class labels or regression values)
-based on input data, whereas autoencoders reconstruct input data or
-extract meaningful representations from it.</li>
-<li>Use Cases: CNNs are suitable for tasks requiring classification or
-regression on structured data like images, whereas autoencoders are used
-for tasks involving data exploration, anomaly detection, or
-preprocessing.</li>
-</ul>
+<p>Understanding these machine learning techniques equips researchers
+with powerful tools to analyze CMS Open Data effectively. By mastering
+CNNs and autoencoders, participants can enhance their ability to derive
+insights, classify particles, and uncover new physics phenomena from
+particle collision data.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -869,9 +1085,11 @@ preprocessing.</li>
 </h3>
 <div class="callout-content">
 <ul>
-<li>Introduction to machine learning in particle physics.</li>
-<li>Data preparation for machine learning analysis.</li>
-<li>Model training and evaluation techniques.</li>
+<li>Introduction to machine learning applications in particle
+physics.</li>
+<li>Detailed exploration of CNNs and autoencoders architectures.</li>
+<li>Practical insights into training and deploying ML models in
+HEP.</li>
 </ul>
 </div>
 </div>

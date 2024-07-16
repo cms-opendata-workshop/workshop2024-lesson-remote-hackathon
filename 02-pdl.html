@@ -224,7 +224,10 @@
 
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
-        <ul><li><a href="#particle-discovery-lab-for-students">Particle Discovery Lab (for students!)</a></li>
+        <ul><li><a href="#particle-discovery-lab">Particle Discovery Lab</a></li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#instructions-for-the-exercise">Instructions for the Exercise</a></li>
+<li><a href="#visualize-with-cms-spy-webgl">Visualize with CMS Spy WebGL</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
 
@@ -234,7 +237,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="03-ml-1.html">3. Machine Learning with Open Data</a>
+        <a href="03-ml-1.html">3. Introduction to Machine Learning in HEP</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -243,7 +246,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="04-ml-2.html">4. Machine Learning with Open Data</a>
+        <a href="04-ml-2.html">4. Machine Learning Practical Applications</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -310,7 +313,7 @@
           Previous: Particle Physics
         </a>
         <a class="chapter-link float-end" href="03-ml-1.html" rel="next">
-          Next: Machine Learning...
+          Next: Introduction to...
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
@@ -335,43 +338,40 @@
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
-<ul><li>How can we identify different particles in collision data?</li>
-<li>What are the characteristics of muons in the dataset?</li>
-<li>How do we perform basic and advanced data analysis in particle
-physics?</li>
-</ul></div>
+<p>How can we identify different particles in collision data? What are
+the characteristics of muons in the dataset? How do we perform basic and
+advanced data analysis in particle physics?</p>
+</div>
 </div>
 </div>
 <div class="col-md-8">
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<ul><li>Reconstruct decays of an unknown particle X to 2 muons.</li>
-<li>Use histograms to display the calculated mass of particle X.</li>
-<li>Learn to fit and subtract background contributions from data.</li>
-<li>Understand uncertainty propagation throughout the analysis.</li>
-<li>Identify the discovered particle and compare its properties to known
-values.</li>
-</ul></div>
+<p>Reconstruct decays of an unknown particle X to 2 muons. Use
+histograms to display the calculated mass of particle X. Learn to fit
+and subtract background contributions from data. Understand uncertainty
+propagation throughout the analysis. Identify the discovered particle
+and compare its properties to known values.</p>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="particle-discovery-lab-for-students">Particle Discovery Lab (for students!)<a class="anchor" aria-label="anchor" href="#particle-discovery-lab-for-students"></a>
-<a class="anchor" aria-label="anchor" href="#particle-discovery-lab-for-students"></a></h2>
+</div>
+<section><h2 class="section-heading" id="particle-discovery-lab">Particle Discovery Lab<a class="anchor" aria-label="anchor" href="#particle-discovery-lab"></a>
+<a class="anchor" aria-label="anchor" href="#particle-discovery-lab"></a></h2>
 <hr class="half-width"><p>Participants will analyze real particle collision data from the CMS
 experiment. They will identify different particles, such as muons and
 electrons, by examining the data’s characteristics. This exercise helps
 students understand how physicists discover and study fundamental
 particles.</p>
-<div class="section level3">
-<h3 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a></h3>
-<p>The Particle Discovery Lab is designed to introduce participants to
+</section><section><h2 class="section-heading" id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
+<a class="anchor" aria-label="anchor" href="#overview"></a></h2>
+<hr class="half-width"><p>The Particle Discovery Lab is designed to introduce participants to
 the fascinating world of particle physics by working with actual data
 from the CMS experiment. This hands-on experience will provide valuable
 insights into the process of particle identification and the analysis
 techniques used by physicists.</p>
-</div>
 <div class="section level3">
 <h3 id="identifying-particles">Identifying Particles<a class="anchor" aria-label="anchor" href="#identifying-particles"></a></h3>
 <p>Participants will learn to identify different particles by analyzing
@@ -388,30 +388,43 @@ plotting histograms and calculating basic statistics. As they progress,
 more advanced techniques will be introduced, including fitting data to
 theoretical models and performing complex statistical analyses.</p>
 </div>
-<div class="section level3">
-<h3 id="instructions-for-the-exercise">Instructions for the Exercise<a class="anchor" aria-label="anchor" href="#instructions-for-the-exercise"></a></h3>
-<p>To get started with the Particle Discovery Lab, follow these
+</section><section><h2 class="section-heading" id="instructions-for-the-exercise">Instructions for the Exercise<a class="anchor" aria-label="anchor" href="#instructions-for-the-exercise"></a>
+<a class="anchor" aria-label="anchor" href="#instructions-for-the-exercise"></a></h2>
+<hr class="half-width"><p>To get started with the Particle Discovery Lab, follow these
 steps:</p>
-<ol style="list-style-type: decimal"><li>
-<strong>Set Up the Python Container</strong>: Ensure you are working
-within the provided Python container environment.</li>
-<li>
-<strong>Clone the Repository</strong>: Open a terminal in the Python
-container and run the following command to clone the repository: ```bash
-git clone <a href="https://github.com/bethel-physics/ParticleDiscoveryLab" class="external-link uri">https://github.com/bethel-physics/ParticleDiscoveryLab</a>
-</li>
-<li>
-<strong>Follow the Instructions</strong>: Navigate to the cloned
-repository directory and follow the instructions provided in either the
-Python script or the Jupyter notebook to complete the exercise.</li>
-</ol></div>
-<div class="section level3">
-<h3 id="visualize-with-cms-spy-webgl">Visualize with CMS Spy WebGL<a class="anchor" aria-label="anchor" href="#visualize-with-cms-spy-webgl"></a></h3>
-<p>To enhance your understanding and visualization of the particle
-collision events, use the <a href="https://opendata.cern.ch/visualise/events/cms#" class="external-link">CMS Spy WebGL
-visualizer</a>. This tool provides a 3D visualization of the CMS
-collision data, allowing you to better grasp the spatial distribution
-and interactions of particles.</p>
+<ol style="list-style-type: decimal"><li>Set Up the Python Container: Ensure you are working within the
+provided Python container environment.</li>
+<li>Clone the Repository: Open a terminal in the Python container and
+run the following command to clone the repository:</li>
+</ol><div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">git</span> clone <span class="at">-b</span> instructors https://github.com/bethel-physics/ParticleDiscoveryLab.git</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="bu">cd</span> ParticleDiscoveryLab/PythonAnalysis</span></code></pre>
+</div>
+<ol start="3" style="list-style-type: decimal"><li>Run the Analysis: Navigate to the cloned repository directory and
+follow the instructions provided in either the Python script or the
+Jupyter notebook to complete the exercise.</li>
+</ol><ul><li>Script: Run the following command:</li>
+</ul><div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">python</span> MuonAnalysis_student.py</span></code></pre>
+</div>
+<ul><li><p>Jupyter Notebook:</p></li>
+<li><p>Start Jupyter Lab:</p></li>
+</ul><div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">jupyter</span> lab</span></code></pre>
+</div>
+<ul><li>Open MuonAnalysis_student.ipynb and follow the instructions.</li>
+</ul></section><section><h2 class="section-heading" id="visualize-with-cms-spy-webgl">Visualize with CMS Spy WebGL<a class="anchor" aria-label="anchor" href="#visualize-with-cms-spy-webgl"></a>
+<a class="anchor" aria-label="anchor" href="#visualize-with-cms-spy-webgl"></a></h2>
+<hr class="half-width"><p>To enhance your understanding and visualization of the particle
+collision events, use the CMS Spy WebGL visualizer. This tool provides a
+3D visualization of the CMS collision data, allowing you to better grasp
+the spatial distribution and interactions of particles.</p>
 <div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -429,6 +442,37 @@ needs and preferences.</p>
 </div>
 </div>
 </div>
+<div class="section level3">
+<h3 id="recommendations-for-hackathon-activities">Recommendations for Hackathon Activities<a class="anchor" aria-label="anchor" href="#recommendations-for-hackathon-activities"></a></h3>
+<p>Participants in the hackathon can leverage their skills and the
+themes explored in the Particle Discovery Lab to tackle innovative
+challenges and projects. Here are some suggested activities:</p>
+<ul><li>
+<strong>Advanced Particle Identification Algorithms</strong>:
+Develop and implement advanced algorithms for particle identification
+using collision data.</li>
+<li>
+<strong>Enhanced Data Visualization Tools</strong>: Create
+interactive tools for exploring and analyzing CMS collision data in
+real-time.</li>
+<li>
+<strong>Integration of Machine Learning</strong>: Apply machine
+learning techniques to automate data analysis and improve particle
+identification accuracy.</li>
+<li>
+<strong>Collaborative Analysis Projects</strong>: Form teams to
+tackle complex analysis challenges or develop new methodologies for
+studying particle interactions.</li>
+<li>
+<strong>Educational Outreach and Visualization</strong>: Design
+educational materials or demos that explain particle physics principles
+using CMS collision data.</li>
+<li>
+<strong>Open Data Innovation</strong>: Develop tools or platforms to
+enhance accessibility and usability of CMS Open Data for the scientific
+community.</li>
+</ul><p>These activities encourage innovation, collaboration, and exploration
+of particle physics concepts beyond the basic lab exercises.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -460,7 +504,7 @@ any links that you are not going to use.
           Previous: Particle Physics
         </a>
         <a class="chapter-link float-end" href="03-ml-1.html" rel="next">
-          Next: Machine Learning...
+          Next: Introduction to...
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
