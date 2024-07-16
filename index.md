@@ -42,10 +42,11 @@ During this hackathon, participants will engage in a variety of self-guided less
 
 #### Key Activities
 
-1. **Particle Discovery Lab**: Analyze real particle collision data from the CMS experiment, identify different particles, and perform both basic and advanced data analysis tasks.
-2. **Particle Physics Playground**: Explore fundamental concepts in particle physics through practical analysis of CMS Open Data, including studying particle decay patterns and understanding particle properties.
-3. **Machine Learning with Open Data**: Apply machine learning techniques to classify different types of particle collisions and gain practical experience in data preparation, model training, and evaluation.
-4. **Advanced Generative Challenge**: Tackle generative modeling tasks using older CMS data, create synthetic data, and validate complex models.
+1. **Particle Physics Playground**: Link back to the Particle Physics Primer pre-learning lesson that Matt made, and encourage participants to try out different exercises exploring fundamental concepts in particle physics.
+2. **Particle Discovery Lab**: Share instructions to do the exercise in the Python container, git clone the repository in the container, and follow the instructions in either the Python script or the Jupyter notebook. Analyze real particle collision data from the CMS experiment, identify different particles, and perform both basic and advanced data analysis tasks.
+3. **Machine Learning 1**: Introduction to using ML in HEP, covering initial aspects and practical applications.
+4. **Machine Learning 2**: Share the supervised and unsupervised learning links with instructions on which container to use. Include a section to discuss results and next steps, applying machine learning techniques to classify different types of particle collisions and gain practical experience in data preparation, model training, and evaluation.
+5. **Analysis Grand Challenge**: Short introduction to this larger exercise using up-to-the-moment HEP software tools. Provide the link and tackle generative modeling tasks using older CMS data, create synthetic data, and validate complex models.
 
 By the end of the hackathon, participants will have gained valuable skills and insights into high-energy physics, data analysis, and machine learning. They will also have the opportunity to contribute to the open science community by sharing their findings and collaborating with others.
 
