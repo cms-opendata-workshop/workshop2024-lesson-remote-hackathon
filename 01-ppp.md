@@ -28,6 +28,10 @@ This lesson offers a variety of exercises designed to help undergraduates unders
 
 The Particle Physics Playground provides an engaging and interactive way for participants to delve into the core principles of particle physics. By working with real CMS Open Data, students will enhance their theoretical knowledge through hands-on experience.
 
+### Pre-learning Lesson
+
+Before diving into the Particle Physics Playground, participants are encouraged to review the [Particle Physics Primer pre-learning lesson](https://cms-opendata-workshop.github.io/workshop2024-lesson-particle-physics-primer/instructor/index.html). This foundational lesson will prepare you for the exercises ahead.
+
 ### Fundamental Concepts
 
 Participants will explore key concepts in particle physics, such as the Standard Model, particle interactions, and conservation laws. Understanding these principles is crucial for analyzing and interpreting particle collision data.

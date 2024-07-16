@@ -25,7 +25,7 @@ keywords: 'software, data, CMS, hackathon'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'alpha' # FIXME
+life_cycle: 'beta' # FIXME
 
 # License of the lesson
 license: 'CC-BY 4.0'
@@ -63,10 +63,11 @@ contact: 'cms-dpoa-coordinator@cern.ch'
 
 # Order of episodes in your lesson
 episodes: 
-- 01-particlediscoverylab.md
-- 02-ppp.md
-- 03-ml.md
-- 04-agc.md
+- 01-ppp.md
+- 02-pdl.md
+- 03-ml-1.md
+- 04-ml-2.md
+- 05-agc.md
 
 # Information for Learners
 learners: 
