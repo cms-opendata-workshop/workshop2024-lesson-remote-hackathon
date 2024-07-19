@@ -718,7 +718,7 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-03-ml-1"><p>Content from <a href="03-ml-1.html">Introduction to Machine Learning in HEP</a></p>
 <hr>
-<p>Last updated on 2024-07-16 |
+<p>Last updated on 2024-07-19 |
 
         <a href="https://github.com/cms-opendata-workshop/workshop2024-lesson-remote-hackathon/edit/main/episodes/03-ml-1.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 5 minutes</p>
@@ -784,13 +784,43 @@ understanding of: - Programming fundamentals (Python recommended) - Data
 handling and visualization - Elementary statistical concepts (mean,
 variance, etc.)</p>
 </div>
-<div class="section level3">
-<h3 id="detailed-concepts-and-steps">Detailed Concepts and Steps<a class="anchor" aria-label="anchor" href="#detailed-concepts-and-steps"></a>
+<div class="section level2">
+<h2 id="lets-get-the-basics-clear">Let’s get the basics clear<a class="anchor" aria-label="anchor" href="#lets-get-the-basics-clear"></a>
+</h2>
+<p><a href="https://www.ibm.com/topics/machine-learning" class="external-link">Machine
+learning</a> (ML) is a branch of artificial intelligence (AI) and
+computer science that focuses on the using data and algorithms to enable
+AI to imitate the way that humans learn, gradually improving its
+accuracy. If that is not clear, please watch <a href="https://www.youtube.com/watch?v=4RixMPF4xis" class="external-link">this video</a>.</p>
+<figure><img src="../ml-vs-ai.png" alt="AI vs ML" class="figure mx-auto d-block"><div class="figcaption">AI vs ML</div>
+</figure><div id="callout1" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
 </h3>
+<div class="callout-content">
+<p>Machine learning, deep learning, and neural networks are all
+sub-fields of artificial intelligence. However, neural networks is
+actually a sub-field of machine learning, and deep learning is a
+sub-field of neural networks.</p>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="nerual-networks">Nerual Networks<a class="anchor" aria-label="anchor" href="#nerual-networks"></a>
+</h3>
+<p>To have an overview of neural networks, visit <a href="https://www.3blue1brown.com/lessons/neural-networks" class="external-link">3Blue1Brown’s
+basics of neural networks, and the math behind how they learn</a>.</p>
+</div>
 </div>
 <div class="section level2">
-<h2 id="data-acquisition-and-understanding">1. Data Acquisition and Understanding<a class="anchor" aria-label="anchor" href="#data-acquisition-and-understanding"></a>
+<h2 id="data-acquisition-and-understanding">Data Acquisition and Understanding<a class="anchor" aria-label="anchor" href="#data-acquisition-and-understanding"></a>
 </h2>
+<p>By now we must have a basic understanding of how Machine Learning
+functions, to use this in the realm of High Energy Physics, we must have
+the following basics.</p>
 <div class="section level3">
 <h3 id="cms-open-data-overview">CMS Open Data Overview<a class="anchor" aria-label="anchor" href="#cms-open-data-overview"></a>
 </h3>
@@ -803,31 +833,33 @@ differences.</li>
 </div>
 </div>
 <div class="section level2">
-<h2 id="data-preparation">2. Data Preparation<a class="anchor" aria-label="anchor" href="#data-preparation"></a>
+<h2 id="data-preparation">Data Preparation<a class="anchor" aria-label="anchor" href="#data-preparation"></a>
 </h2>
 <div class="section level3">
 <h3 id="cleaning-and-preprocessing">Cleaning and Preprocessing<a class="anchor" aria-label="anchor" href="#cleaning-and-preprocessing"></a>
 </h3>
 <ul>
-<li>Handling missing data points and outliers.</li>
-<li>Normalizing data to ensure consistency across features.</li>
-<li>Exploratory data analysis (EDA) to understand distributions and
-correlations.</li>
+<li><a href="https://levelup.gitconnected.com/handling-missing-data-and-outliers-in-machine-learning-challenges-and-solutions-c02b1be2ca36" class="external-link">Handling
+missing data points and outliers.</a></li>
+<li><a href="https://www.markovml.com/blog/normalization-in-machine-learning#" class="external-link">Normalizing
+data to ensure consistency across features.</a></li>
+<li><a href="https://medium.com/@avicsebooks/ml-part-7-introduction-to-exploratory-data-analysis-eda-8b781adfce51" class="external-link">Exploratory
+data analysis (EDA) to understand distributions and
+correlations.</a></li>
 </ul>
-</div>
-<div class="section level3">
-<h3 id="feature-engineering">Feature Engineering<a class="anchor" aria-label="anchor" href="#feature-engineering"></a>
-</h3>
-<ul>
-<li>Selecting relevant features for ML models.</li>
-<li>Creating new features to enhance model performance.</li>
-<li>Dimensionality reduction techniques (PCA, t-SNE) for visualization
-and model efficiency.</li>
-</ul>
+<p>As you dive into the hackathon, keep in mind that feature
+engineering—like selecting relevant features, creating new ones to
+enhance model performance, and using dimensionality reduction techniques
+play a crucial role in both supervised and unsupervised learning.
+Mastering these techniques will significantly impact your models’
+ability to learn from and make sense of your data, so be sure to
+leverage them effectively in your projects!</p>
+<figure><img src="../fig/s-vs-us.png" alt="supervised vs unsupervised learning" class="figure mx-auto d-block"><div class="figcaption">supervised vs unsupervised learning</div>
+</figure><p>You can get a glimpse of the differences in <a href="https://www.youtube.com/watch?v=rHeaoaiBM6Y" class="external-link">this video</a>.</p>
 </div>
 </div>
 <div class="section level2">
-<h2 id="supervised-learning-in-hep">3. Supervised Learning in HEP<a class="anchor" aria-label="anchor" href="#supervised-learning-in-hep"></a>
+<h2 id="supervised-learning-in-hep">Supervised Learning in HEP<a class="anchor" aria-label="anchor" href="#supervised-learning-in-hep"></a>
 </h2>
 <div class="section level3">
 <h3 id="basics-of-supervised-learning">Basics of Supervised Learning<a class="anchor" aria-label="anchor" href="#basics-of-supervised-learning"></a>
@@ -836,43 +868,57 @@ and model efficiency.</li>
 <li>Understanding labeled datasets and target variables.</li>
 <li>Classification tasks: distinguishing particle types (e.g., muons,
 electrons).</li>
-<li>Regression tasks: predicting particle properties (e.g., energy,
-momentum).</li>
+<li>Regression tasks: a possible application in HEP can be predicting
+particle properties (e.g., energy, momentum).</li>
 </ul>
 </div>
 <div class="section level3">
 <h3 id="model-selection-and-training">Model Selection and Training<a class="anchor" aria-label="anchor" href="#model-selection-and-training"></a>
 </h3>
 <ul>
-<li>Choosing appropriate algorithms (e.g., Decision Trees, Random
-Forests, Neural Networks).</li>
-<li>Cross-validation techniques to optimize model performance.</li>
-<li>Hyperparameter tuning to fine-tune model behavior.</li>
+<li>
+<a href="https://www.simplilearn.com/10-algorithms-machine-learning-engineers-need-to-know-article" class="external-link">Choosing
+appropriate algorithms</a> (e.g., Decision Trees, Random Forests, Neural
+Networks).</li>
+<li>
+<a href="https://www.turing.com/kb/different-types-of-cross-validations-in-machine-learning-and-their-explanations" class="external-link">Cross-validation
+techniques</a> to optimize model performance.</li>
+<li>
+<a href="https://cloud.google.com/vertex-ai/docs/training/hyperparameter-tuning-overview" class="external-link">Hyperparameter
+tuning</a> to fine-tune model behavior.</li>
 </ul>
 </div>
 <div class="section level3">
 <h3 id="model-evaluation">Model Evaluation<a class="anchor" aria-label="anchor" href="#model-evaluation"></a>
 </h3>
 <ul>
-<li>Metrics: accuracy, precision, recall, F1-score.</li>
-<li>Confusion matrices and ROC curves for performance
-visualization.</li>
-<li>Interpreting results and refining models based on feedback.</li>
+<li>
+<a href="https://towardsdatascience.com/metrics-to-evaluate-your-machine-learning-algorithm-f10ba6e38234" class="external-link">Metrics</a>:
+accuracy, precision, recall, F1-score.</li>
+<li>Confusion matrices and <a href="https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc" class="external-link">ROC
+curves</a> for performance visualization.</li>
+<li>Interpreting results and refining models based on feedback: Watch <a href="https://www.youtube.com/watch?v=nt5DwCuYY5c&amp;t" class="external-link">this video</a>
+for Learning Curves In Machine Learning explanation.</li>
 </ul>
+<figure><img src="../fig/metrics.png" alt="Confusion metrics" class="figure mx-auto d-block"><div class="figcaption">Confusion metrics</div>
+</figure>
 </div>
 </div>
 <div class="section level2">
-<h2 id="unsupervised-learning-in-hep">4. Unsupervised Learning in HEP<a class="anchor" aria-label="anchor" href="#unsupervised-learning-in-hep"></a>
+<h2 id="unsupervised-learning-in-hep">Unsupervised Learning in HEP<a class="anchor" aria-label="anchor" href="#unsupervised-learning-in-hep"></a>
 </h2>
 <div class="section level3">
 <h3 id="basics-of-unsupervised-learning">Basics of Unsupervised Learning<a class="anchor" aria-label="anchor" href="#basics-of-unsupervised-learning"></a>
 </h3>
 <ul>
-<li>Clustering algorithms (K-means, DBSCAN) for grouping similar
-events.</li>
+<li>
+<a href="https://cloud.google.com/discover/what-is-unsupervised-learning?hl=en#" class="external-link">Clustering
+algorithms</a> (K-means, DBSCAN) for grouping similar events.</li>
 <li>Anomaly detection techniques to identify unusual data points.</li>
-<li>Dimensionality reduction methods (PCA, LDA) for visualizing
-high-dimensional data.</li>
+<li>
+<a href="https://www.ibm.com/topics/dimensionality-reduction" class="external-link">Dimensionality
+reduction</a> methods (PCA, LDA) for visualizing high-dimensional
+data.</li>
 </ul>
 </div>
 <div class="section level3">
@@ -886,7 +932,7 @@ high-dimensional data.</li>
 </div>
 </div>
 <div class="section level2">
-<h2 id="advanced-topics-and-applications">5. Advanced Topics and Applications<a class="anchor" aria-label="anchor" href="#advanced-topics-and-applications"></a>
+<h2 id="advanced-topics-and-applications">Advanced Topics and Applications<a class="anchor" aria-label="anchor" href="#advanced-topics-and-applications"></a>
 </h2>
 <div class="section level3">
 <h3 id="deep-learning-and-neural-networks">Deep Learning and Neural Networks<a class="anchor" aria-label="anchor" href="#deep-learning-and-neural-networks"></a>
@@ -941,7 +987,7 @@ any links that you are not going to use.
  -->
 </div></section><section id="aio-04-ml-2"><p>Content from <a href="04-ml-2.html">Machine Learning Practical Applications</a></p>
 <hr>
-<p>Last updated on 2024-07-16 |
+<p>Last updated on 2024-07-19 |
 
         <a href="https://github.com/cms-opendata-workshop/workshop2024-lesson-remote-hackathon/edit/main/episodes/04-ml-2.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 5 minutes</p>
@@ -981,17 +1027,16 @@ learning model.</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="practical-application-of-machine-learning-in-particle-physics">Practical Application of Machine Learning in Particle Physics<a class="anchor" aria-label="anchor" href="#practical-application-of-machine-learning-in-particle-physics"></a>
-<a class="anchor" aria-label="anchor" href="#practical-application-of-machine-learning-in-particle-physics"></a>
-</h2>
-<hr class="half-width">
+<div class="section level1">
+<h1 id="practical-application-of-machine-learning-in-particle-physics">Practical Application of Machine Learning in Particle Physics<a class="anchor" aria-label="anchor" href="#practical-application-of-machine-learning-in-particle-physics"></a>
+</h1>
 <p>Machine learning techniques, such as Convolutional Neural Networks
 (CNNs) and autoencoders, play pivotal roles in analyzing particle
 physics data. This section provides insights into their architectures,
 training processes, and practical applications within the field.</p>
-<div class="section level3">
-<h3 id="convolutional-neural-networks-cnns">Convolutional Neural Networks (CNNs)<a class="anchor" aria-label="anchor" href="#convolutional-neural-networks-cnns"></a>
-</h3>
+<div class="section level2">
+<h2 id="convolutional-neural-networks-cnns">Convolutional Neural Networks (CNNs)<a class="anchor" aria-label="anchor" href="#convolutional-neural-networks-cnns"></a>
+</h2>
 <div class="section level4">
 <h4 id="purpose-and-architecture">Purpose and Architecture<a class="anchor" aria-label="anchor" href="#purpose-and-architecture"></a>
 </h4>
@@ -1017,10 +1062,28 @@ classify particle types, analyze detector images for anomalies, and
 segment regions of interest in collision data.</li>
 </ul>
 </div>
+<div class="section level4">
+<h4 id="practical-example">Practical Example<a class="anchor" aria-label="anchor" href="#practical-example"></a>
+</h4>
+<p>This project explores the application of deep learning techniques in
+high-energy physics using data from the CMS experiment at the LHC. The
+repository includes analyzers, scripts, and notebooks to process
+collision data and train convolutional neural networks (CNNs) for
+particle classification. By transforming collision data into images and
+using various CNN architectures, the project aims to classify
+high-energy particle collision outcomes with high accuracy. The
+<code>poet_realdata.py</code> script and
+<code>MuonAnalyzer_realdata.cc</code> analyzer are based on the original
+configuration and analyzers used in the final version of the <a href="https://cms-opendata-workshop.github.io/2023-07-11-cms-open-data-workshop/" class="external-link">CMS
+Open Data Workshop 2022</a>, ensuring consistency and relevance of the
+data analysis techniques and tools employed in this project with those
+taught during the workshop.</p>
+<p><strong>Link to repo:</strong> <a href="https://github.com/xaviertintin/cnn-hep-thesis/tree/main" class="external-link">GitHub</a></p>
 </div>
-<div class="section level3">
-<h3 id="autoencoders">Autoencoders<a class="anchor" aria-label="anchor" href="#autoencoders"></a>
-</h3>
+</div>
+<div class="section level2">
+<h2 id="autoencoders">Autoencoders<a class="anchor" aria-label="anchor" href="#autoencoders"></a>
+</h2>
 <div class="section level4">
 <h4 id="purpose-and-architecture-1">Purpose and Architecture<a class="anchor" aria-label="anchor" href="#purpose-and-architecture-1"></a>
 </h4>
@@ -1048,10 +1111,28 @@ experimental data, and extract meaningful features for subsequent
 analysis.</li>
 </ul>
 </div>
+<div class="section level4">
+<h4 id="practical-example-1">Practical Example<a class="anchor" aria-label="anchor" href="#practical-example-1"></a>
+</h4>
+<p>The QCD School 2024 ML project is an educational initiative designed
+to introduce participants to the application of machine learning in high
+energy physics, specifically through anomaly detection using
+unsupervised learning. The project provides a hands-on tutorial for
+designing and implementing a tiny autoencoder (AE) model, which is
+trained to identify potentially new physics events from proton collision
+data obtained from the CMS Open Data. In this example you will learn to
+compress and decompress data using the autoencoder, train it on
+background data, and evaluate its performance on both background and New
+Physics simulated samples. The project also covers advanced techniques
+like quantization-aware training using QKeras and model deployment on
+FPGA firmware with hls4ml, providing a comprehensive learning experience
+that bridges theoretical concepts with practical implementation.</p>
+<p><strong>Link to repo:</strong> <a href="https://github.com/thaarres/qcd_school_ml/" class="external-link">GitHub</a></p>
 </div>
-<div class="section level3">
-<h3 id="key-differences">Key Differences<a class="anchor" aria-label="anchor" href="#key-differences"></a>
-</h3>
+</div>
+<div class="section level2">
+<h2 id="key-differences">Key Differences<a class="anchor" aria-label="anchor" href="#key-differences"></a>
+</h2>
 <ul>
 <li>
 <strong>Supervised vs. Unsupervised</strong>: CNNs require labeled
@@ -1067,7 +1148,6 @@ precise classification or segmentation in structured data like detector
 images. Autoencoders excel in exploratory tasks, anomaly detection, and
 dimensionality reduction in complex datasets.</li>
 </ul>
-</div>
 <div class="section level3">
 <h3 id="practical-considerations">Practical Considerations<a class="anchor" aria-label="anchor" href="#practical-considerations"></a>
 </h3>
@@ -1085,11 +1165,24 @@ particle collision data.</p>
 </h3>
 <div class="callout-content">
 <ul>
-<li>Introduction to machine learning applications in particle
-physics.</li>
-<li>Detailed exploration of CNNs and autoencoders architectures.</li>
-<li>Practical insights into training and deploying ML models in
-HEP.</li>
+<li>
+<strong>Supervised vs. Unsupervised:</strong> CNNs require labeled
+data for training, making them suited for supervised learning tasks
+where the model learns from explicit examples with known outcomes.
+Autoencoders, in contrast, utilize unlabeled data and excel in
+unsupervised learning, focusing on learning data representations and
+detecting anomalies without predefined labels.</li>
+<li>
+<strong>Output:</strong> CNNs produce predictions or classifications
+based on input data labels (classification/regression), whereas
+autoencoders aim to reconstruct input data or generate compressed
+representations for further analysis.</li>
+<li>
+<strong>Use Cases:</strong> CNNs are ideal for tasks involving
+structured data such as detector images, where precise classification or
+segmentation is needed. Autoencoders are particularly useful for
+exploratory tasks, anomaly detection, and dimensionality reduction in
+complex datasets where direct supervision is not available.</li>
 </ul>
 </div>
 </div>
@@ -1099,7 +1192,8 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
 </div>
-</section></section><section id="aio-05-agc"><p>Content from <a href="05-agc.html">Advanced Generative Challenge</a></p>
+</div>
+</div></section><section id="aio-05-agc"><p>Content from <a href="05-agc.html">Advanced Generative Challenge</a></p>
 <hr>
 <p>Last updated on 2024-07-16 |
 
@@ -1258,8 +1352,8 @@ any links that you are not going to use.
   "url": "https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/aio.html",
   "identifier": "https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/aio.html",
   "dateCreated": "2024-07-14",
-  "dateModified": "2024-07-16",
-  "datePublished": "2024-07-16"
+  "dateModified": "2024-07-19",
+  "datePublished": "2024-07-19"
 }
 
   </script><script>

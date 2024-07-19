@@ -232,19 +232,12 @@
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         4. Machine Learning Practical Applications
         </span>
-      </button>
+      
     </div><!--/div.accordion-header-->
-
-    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
-      <div class="accordion-body">
-        <ul><li><a href="#practical-application-of-machine-learning-in-particle-physics">Practical Application of Machine Learning in Particle Physics</a></li>
-        </ul></div><!--/div.accordion-body-->
-    </div><!--/div.accordion-collapse-->
 
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -315,7 +308,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Machine Learning Practical Applications</h1>
-        <p>Last updated on 2024-07-16 |
+        <p>Last updated on 2024-07-19 |
 
         <a href="https://github.com/cms-opendata-workshop/workshop2024-lesson-remote-hackathon/edit/main/episodes/04-ml-2.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -358,14 +351,14 @@ learning model.</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="practical-application-of-machine-learning-in-particle-physics">Practical Application of Machine Learning in Particle Physics<a class="anchor" aria-label="anchor" href="#practical-application-of-machine-learning-in-particle-physics"></a>
-<a class="anchor" aria-label="anchor" href="#practical-application-of-machine-learning-in-particle-physics"></a></h2>
-<hr class="half-width"><p>Machine learning techniques, such as Convolutional Neural Networks
+<div class="section level1">
+<h1 id="practical-application-of-machine-learning-in-particle-physics">Practical Application of Machine Learning in Particle Physics<a class="anchor" aria-label="anchor" href="#practical-application-of-machine-learning-in-particle-physics"></a></h1>
+<p>Machine learning techniques, such as Convolutional Neural Networks
 (CNNs) and autoencoders, play pivotal roles in analyzing particle
 physics data. This section provides insights into their architectures,
 training processes, and practical applications within the field.</p>
-<div class="section level3">
-<h3 id="convolutional-neural-networks-cnns">Convolutional Neural Networks (CNNs)<a class="anchor" aria-label="anchor" href="#convolutional-neural-networks-cnns"></a></h3>
+<div class="section level2">
+<h2 id="convolutional-neural-networks-cnns">Convolutional Neural Networks (CNNs)<a class="anchor" aria-label="anchor" href="#convolutional-neural-networks-cnns"></a></h2>
 <div class="section level4">
 <h4 id="purpose-and-architecture">Purpose and Architecture<a class="anchor" aria-label="anchor" href="#purpose-and-architecture"></a></h4>
 <p>CNNs are specialized neural networks designed for processing
@@ -388,9 +381,26 @@ loss.</li>
 classify particle types, analyze detector images for anomalies, and
 segment regions of interest in collision data.</li>
 </ul></div>
+<div class="section level4">
+<h4 id="practical-example">Practical Example<a class="anchor" aria-label="anchor" href="#practical-example"></a></h4>
+<p>This project explores the application of deep learning techniques in
+high-energy physics using data from the CMS experiment at the LHC. The
+repository includes analyzers, scripts, and notebooks to process
+collision data and train convolutional neural networks (CNNs) for
+particle classification. By transforming collision data into images and
+using various CNN architectures, the project aims to classify
+high-energy particle collision outcomes with high accuracy. The
+<code>poet_realdata.py</code> script and
+<code>MuonAnalyzer_realdata.cc</code> analyzer are based on the original
+configuration and analyzers used in the final version of the <a href="https://cms-opendata-workshop.github.io/2023-07-11-cms-open-data-workshop/" class="external-link">CMS
+Open Data Workshop 2022</a>, ensuring consistency and relevance of the
+data analysis techniques and tools employed in this project with those
+taught during the workshop.</p>
+<p><strong>Link to repo:</strong> <a href="https://github.com/xaviertintin/cnn-hep-thesis/tree/main" class="external-link">GitHub</a></p>
 </div>
-<div class="section level3">
-<h3 id="autoencoders">Autoencoders<a class="anchor" aria-label="anchor" href="#autoencoders"></a></h3>
+</div>
+<div class="section level2">
+<h2 id="autoencoders">Autoencoders<a class="anchor" aria-label="anchor" href="#autoencoders"></a></h2>
 <div class="section level4">
 <h4 id="purpose-and-architecture-1">Purpose and Architecture<a class="anchor" aria-label="anchor" href="#purpose-and-architecture-1"></a></h4>
 <p>Autoencoders are unsupervised learning models that learn efficient
@@ -415,9 +425,26 @@ used to denoise detector data, detect rare events or anomalies in
 experimental data, and extract meaningful features for subsequent
 analysis.</li>
 </ul></div>
+<div class="section level4">
+<h4 id="practical-example-1">Practical Example<a class="anchor" aria-label="anchor" href="#practical-example-1"></a></h4>
+<p>The QCD School 2024 ML project is an educational initiative designed
+to introduce participants to the application of machine learning in high
+energy physics, specifically through anomaly detection using
+unsupervised learning. The project provides a hands-on tutorial for
+designing and implementing a tiny autoencoder (AE) model, which is
+trained to identify potentially new physics events from proton collision
+data obtained from the CMS Open Data. In this example you will learn to
+compress and decompress data using the autoencoder, train it on
+background data, and evaluate its performance on both background and New
+Physics simulated samples. The project also covers advanced techniques
+like quantization-aware training using QKeras and model deployment on
+FPGA firmware with hls4ml, providing a comprehensive learning experience
+that bridges theoretical concepts with practical implementation.</p>
+<p><strong>Link to repo:</strong> <a href="https://github.com/thaarres/qcd_school_ml/" class="external-link">GitHub</a></p>
 </div>
-<div class="section level3">
-<h3 id="key-differences">Key Differences<a class="anchor" aria-label="anchor" href="#key-differences"></a></h3>
+</div>
+<div class="section level2">
+<h2 id="key-differences">Key Differences<a class="anchor" aria-label="anchor" href="#key-differences"></a></h2>
 <ul><li>
 <strong>Supervised vs. Unsupervised</strong>: CNNs require labeled
 data for training (supervised), while autoencoders learn from unlabeled
@@ -431,8 +458,7 @@ reconstruct input data or learn compressed representations.</li>
 precise classification or segmentation in structured data like detector
 images. Autoencoders excel in exploratory tasks, anomaly detection, and
 dimensionality reduction in complex datasets.</li>
-</ul></div>
-<div class="section level3">
+</ul><div class="section level3">
 <h3 id="practical-considerations">Practical Considerations<a class="anchor" aria-label="anchor" href="#practical-considerations"></a></h3>
 <p>Understanding these machine learning techniques equips researchers
 with powerful tools to analyze CMS Open Data effectively. By mastering
@@ -447,11 +473,24 @@ particle collision data.</p>
 <h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
 </h3>
 <div class="callout-content">
-<ul><li>Introduction to machine learning applications in particle
-physics.</li>
-<li>Detailed exploration of CNNs and autoencoders architectures.</li>
-<li>Practical insights into training and deploying ML models in
-HEP.</li>
+<ul><li>
+<strong>Supervised vs. Unsupervised:</strong> CNNs require labeled
+data for training, making them suited for supervised learning tasks
+where the model learns from explicit examples with known outcomes.
+Autoencoders, in contrast, utilize unlabeled data and excel in
+unsupervised learning, focusing on learning data representations and
+detecting anomalies without predefined labels.</li>
+<li>
+<strong>Output:</strong> CNNs produce predictions or classifications
+based on input data labels (classification/regression), whereas
+autoencoders aim to reconstruct input data or generate compressed
+representations for further analysis.</li>
+<li>
+<strong>Use Cases:</strong> CNNs are ideal for tasks involving
+structured data such as detector images, where precise classification or
+segmentation is needed. Autoencoders are particularly useful for
+exploratory tasks, anomaly detection, and dimensionality reduction in
+complex datasets where direct supervision is not available.</li>
 </ul></div>
 </div>
 </div>
@@ -460,7 +499,12 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
 </div>
-</section></div> <!-- / div.lesson-content -->
+</div>
+</div>
+
+
+
+      </div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/03-ml-1.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="../instructor/05-agc.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
@@ -518,8 +562,8 @@ any links that you are not going to use.
   "url": "https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/04-ml-2.html",
   "identifier": "https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/04-ml-2.html",
   "dateCreated": "2024-07-14",
-  "dateModified": "2024-07-16",
-  "datePublished": "2024-07-16"
+  "dateModified": "2024-07-19",
+  "datePublished": "2024-07-19"
 }
 
   </script><script>
