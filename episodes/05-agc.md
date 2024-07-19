@@ -44,6 +44,8 @@ An essential aspect of generative modeling is validating the synthetic data. Par
 
 In this project, participants will apply their knowledge to generate synthetic particle collision data. This involves not only building and training generative models but also rigorously validating the generated data to ensure it meets the required standards.
 
+For more detailed information and guidelines, please refer to the [Advanced Generative Challenge Documentation](https://agc.readthedocs.io/en/latest/).
+
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - Generative modeling techniques for particle physics.
