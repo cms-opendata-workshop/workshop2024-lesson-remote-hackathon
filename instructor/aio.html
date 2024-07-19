@@ -758,24 +758,18 @@ learning model.</li>
 </div>
 </div>
 </div>
-<div class="section level1">
-<h1 id="introduction-to-machine-learning-in-hep">Introduction to Machine Learning in HEP<a class="anchor" aria-label="anchor" href="#introduction-to-machine-learning-in-hep"></a>
-</h1>
+<section><h2 class="section-heading" id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
+<a class="anchor" aria-label="anchor" href="#overview"></a>
+</h2>
+<hr class="half-width">
 <p>Machine learning (ML) is a powerful tool for extracting insights from
 complex datasets, making it invaluable in high-energy physics (HEP)
-research. This lesson introduces participants to applying ML techniques
-to CMS Open Data, providing a structured approach for beginners with
-some programming experience.</p>
-<div class="section level3">
-<h3 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
-</h3>
-<p>The Machine Learning in High-Energy Physics (HEP) activity bridges
-the gap between data science and particle physics, utilizing CMS Open
-Data to explore real-world applications. Participants will learn to
+research. The Machine Learning in High-Energy Physics (HEP) activity
+bridges the gap between data science and particle physics, utilizing CMS
+Open Data to explore real-world applications. Participants will learn to
 leverage ML algorithms to analyze particle collision data, enabling them
 to classify events, discover new particles, and enhance their
 understanding of fundamental physics.</p>
-</div>
 <div class="section level3">
 <h3 id="prerequisites">Prerequisites<a class="anchor" aria-label="anchor" href="#prerequisites"></a>
 </h3>
@@ -784,15 +778,20 @@ understanding of: - Programming fundamentals (Python recommended) - Data
 handling and visualization - Elementary statistical concepts (mean,
 variance, etc.)</p>
 </div>
-<div class="section level2">
-<h2 id="lets-get-the-basics-clear">Let’s get the basics clear<a class="anchor" aria-label="anchor" href="#lets-get-the-basics-clear"></a>
+</section><section><h2 class="section-heading" id="lets-get-the-basics-clear">Let’s get the basics clear<a class="anchor" aria-label="anchor" href="#lets-get-the-basics-clear"></a>
+<a class="anchor" aria-label="anchor" href="#lets-get-the-basics-clear"></a>
 </h2>
+<hr class="half-width">
 <p><a href="https://www.ibm.com/topics/machine-learning" class="external-link">Machine
 learning</a> (ML) is a branch of artificial intelligence (AI) and
 computer science that focuses on the using data and algorithms to enable
 AI to imitate the way that humans learn, gradually improving its
 accuracy. If that is not clear, please watch <a href="https://www.youtube.com/watch?v=4RixMPF4xis" class="external-link">this video</a>.</p>
-<figure><img src="../fig/ml-vs-ai.png" alt="AI vs ML" class="figure mx-auto d-block"><div class="figcaption">AI vs ML</div>
+<figure><img src="../fig/ml-vs-ai.png" alt="Artificial Intelligence (AI) is the broader concept of machines being able to carry out tasks in a way that we would consider “smart”. Machine Learning (ML) is a subset of AI that involves training algorithms to learn from and make predictions based on data." class="figure mx-auto d-block"><div class="figcaption">Artificial Intelligence (AI) is the broader
+concept of machines being able to carry out tasks in a way that we would
+consider “smart”. Machine Learning (ML) is a subset of AI that involves
+training algorithms to learn from and make predictions based on
+data.</div>
 </figure><div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -808,36 +807,30 @@ sub-field of neural networks.</p>
 </div>
 </div>
 </div>
-<div class="section level3">
-<h3 id="nerual-networks">Nerual Networks<a class="anchor" aria-label="anchor" href="#nerual-networks"></a>
-</h3>
 <p>To have an overview of neural networks, visit <a href="https://www.3blue1brown.com/lessons/neural-networks" class="external-link">3Blue1Brown’s
 basics of neural networks, and the math behind how they learn</a>.</p>
-</div>
-</div>
-<div class="section level2">
-<h2 id="data-acquisition-and-understanding">Data Acquisition and Understanding<a class="anchor" aria-label="anchor" href="#data-acquisition-and-understanding"></a>
+</section><section><h2 class="section-heading" id="data-acquisition-and-understanding">Data Acquisition and Understanding<a class="anchor" aria-label="anchor" href="#data-acquisition-and-understanding"></a>
+<a class="anchor" aria-label="anchor" href="#data-acquisition-and-understanding"></a>
 </h2>
+<hr class="half-width">
 <p>By now we must have a basic understanding of how Machine Learning
 functions, to use this in the realm of High Energy Physics, we must have
 the following basics.</p>
-<div class="section level3">
-<h3 id="cms-open-data-overview">CMS Open Data Overview<a class="anchor" aria-label="anchor" href="#cms-open-data-overview"></a>
-</h3>
-<ul>
-<li>Accessing and understanding the CMS Open Data repository.</li>
-<li>Types of datasets available (e.g., AOD, MiniAOD, NanoAOD) and their
-differences.</li>
-<li>Introduction to the CMS experiment and its detectors.</li>
-</ul>
-</div>
-</div>
-<div class="section level2">
-<h2 id="data-preparation">Data Preparation<a class="anchor" aria-label="anchor" href="#data-preparation"></a>
+<p><strong>CMS Open Data Overview:</strong> - Accessing and
+understanding the CMS Open Data repository. - Types of datasets
+available (e.g., AOD, MiniAOD, NanoAOD) and their differences. -
+Introduction to the CMS experiment and its detectors.</p>
+</section><section><h2 class="section-heading" id="data-preparation---cleaning-and-preprocessing">Data Preparation - Cleaning and Preprocessing<a class="anchor" aria-label="anchor" href="#data-preparation---cleaning-and-preprocessing"></a>
+<a class="anchor" aria-label="anchor" href="#data-preparation---cleaning-and-preprocessing"></a>
 </h2>
-<div class="section level3">
-<h3 id="cleaning-and-preprocessing">Cleaning and Preprocessing<a class="anchor" aria-label="anchor" href="#cleaning-and-preprocessing"></a>
-</h3>
+<hr class="half-width">
+<p>As you dive into the hackathon, keep in mind that feature
+engineering—like selecting relevant features, creating new ones to
+enhance model performance, and using dimensionality reduction techniques
+play a crucial role in both supervised and unsupervised learning.
+Mastering these techniques will significantly impact your models’
+ability to learn from and make sense of your data, so be sure to
+leverage them effectively in your projects!</p>
 <ul>
 <li><a href="https://levelup.gitconnected.com/handling-missing-data-and-outliers-in-machine-learning-challenges-and-solutions-c02b1be2ca36" class="external-link">Handling
 missing data points and outliers.</a></li>
@@ -847,23 +840,20 @@ data to ensure consistency across features.</a></li>
 data analysis (EDA) to understand distributions and
 correlations.</a></li>
 </ul>
-<p>As you dive into the hackathon, keep in mind that feature
-engineering—like selecting relevant features, creating new ones to
-enhance model performance, and using dimensionality reduction techniques
-play a crucial role in both supervised and unsupervised learning.
-Mastering these techniques will significantly impact your models’
-ability to learn from and make sense of your data, so be sure to
-leverage them effectively in your projects!</p>
-<figure><img src="../fig/s-vs-us.png" alt="supervised vs unsupervised learning" class="figure mx-auto d-block"><div class="figcaption">supervised vs unsupervised learning</div>
+<figure><img src="../fig/s-vs-us.png" alt="Supervised learning involves training a model on labeled data, where the input comes with corresponding output labels, allowing the model to learn the relationship between inputs and outputs. In contrast, unsupervised learning works with unlabeled data, identifying patterns and structures within the data without predefined labels, often used for clustering and association tasks." class="figure mx-auto d-block"><div class="figcaption">Supervised learning involves training a model on
+labeled data, where the input comes with corresponding output labels,
+allowing the model to learn the relationship between inputs and outputs.
+In contrast, unsupervised learning works with unlabeled data,
+identifying patterns and structures within the data without predefined
+labels, often used for clustering and association tasks.</div>
 </figure><p>You can get a glimpse of the differences in <a href="https://www.youtube.com/watch?v=rHeaoaiBM6Y" class="external-link">this video</a>.</p>
-</div>
-</div>
-<div class="section level2">
-<h2 id="supervised-learning-in-hep">Supervised Learning in HEP<a class="anchor" aria-label="anchor" href="#supervised-learning-in-hep"></a>
+</section><section><h2 class="section-heading" id="supervised-learning-in-hep">Supervised Learning in HEP<a class="anchor" aria-label="anchor" href="#supervised-learning-in-hep"></a>
+<a class="anchor" aria-label="anchor" href="#supervised-learning-in-hep"></a>
 </h2>
-<div class="section level3">
-<h3 id="basics-of-supervised-learning">Basics of Supervised Learning<a class="anchor" aria-label="anchor" href="#basics-of-supervised-learning"></a>
-</h3>
+<hr class="half-width">
+<div class="section level4">
+<h4 id="basics-of-supervised-learning">Basics of Supervised Learning<a class="anchor" aria-label="anchor" href="#basics-of-supervised-learning"></a>
+</h4>
 <ul>
 <li>Understanding labeled datasets and target variables.</li>
 <li>Classification tasks: distinguishing particle types (e.g., muons,
@@ -872,9 +862,9 @@ electrons).</li>
 particle properties (e.g., energy, momentum).</li>
 </ul>
 </div>
-<div class="section level3">
-<h3 id="model-selection-and-training">Model Selection and Training<a class="anchor" aria-label="anchor" href="#model-selection-and-training"></a>
-</h3>
+<div class="section level4">
+<h4 id="model-selection-and-training">Model Selection and Training<a class="anchor" aria-label="anchor" href="#model-selection-and-training"></a>
+</h4>
 <ul>
 <li>
 <a href="https://www.simplilearn.com/10-algorithms-machine-learning-engineers-need-to-know-article" class="external-link">Choosing
@@ -888,9 +878,9 @@ techniques</a> to optimize model performance.</li>
 tuning</a> to fine-tune model behavior.</li>
 </ul>
 </div>
-<div class="section level3">
-<h3 id="model-evaluation">Model Evaluation<a class="anchor" aria-label="anchor" href="#model-evaluation"></a>
-</h3>
+<div class="section level4">
+<h4 id="model-evaluation">Model Evaluation<a class="anchor" aria-label="anchor" href="#model-evaluation"></a>
+</h4>
 <ul>
 <li>
 <a href="https://towardsdatascience.com/metrics-to-evaluate-your-machine-learning-algorithm-f10ba6e38234" class="external-link">Metrics</a>:
@@ -900,16 +890,20 @@ curves</a> for performance visualization.</li>
 <li>Interpreting results and refining models based on feedback: Watch <a href="https://www.youtube.com/watch?v=nt5DwCuYY5c&amp;t" class="external-link">this video</a>
 for Learning Curves In Machine Learning explanation.</li>
 </ul>
-<figure><img src="../fig/metrics.png" alt="Confusion metrics" class="figure mx-auto d-block"><div class="figcaption">Confusion metrics</div>
+<figure><img src="../fig/metrics.png" alt="Confusion metrics, also known as a confusion matrix, is a table used to evaluate the performance of a classification model. It displays the true positives, true negatives, false positives, and false negatives, providing insight into the accuracy, precision, recall, and overall effectiveness of the model’s predictions." class="figure mx-auto d-block"><div class="figcaption">Confusion metrics, also known as a confusion
+matrix, is a table used to evaluate the performance of a classification
+model. It displays the true positives, true negatives, false positives,
+and false negatives, providing insight into the accuracy, precision,
+recall, and overall effectiveness of the model’s predictions.</div>
 </figure>
 </div>
-</div>
-<div class="section level2">
-<h2 id="unsupervised-learning-in-hep">Unsupervised Learning in HEP<a class="anchor" aria-label="anchor" href="#unsupervised-learning-in-hep"></a>
+</section><section><h2 class="section-heading" id="unsupervised-learning-in-hep">Unsupervised Learning in HEP<a class="anchor" aria-label="anchor" href="#unsupervised-learning-in-hep"></a>
+<a class="anchor" aria-label="anchor" href="#unsupervised-learning-in-hep"></a>
 </h2>
-<div class="section level3">
-<h3 id="basics-of-unsupervised-learning">Basics of Unsupervised Learning<a class="anchor" aria-label="anchor" href="#basics-of-unsupervised-learning"></a>
-</h3>
+<hr class="half-width">
+<div class="section level4">
+<h4 id="basics-of-unsupervised-learning">Basics of Unsupervised Learning<a class="anchor" aria-label="anchor" href="#basics-of-unsupervised-learning"></a>
+</h4>
 <ul>
 <li>
 <a href="https://cloud.google.com/discover/what-is-unsupervised-learning?hl=en#" class="external-link">Clustering
@@ -921,43 +915,19 @@ reduction</a> methods (PCA, LDA) for visualizing high-dimensional
 data.</li>
 </ul>
 </div>
-<div class="section level3">
-<h3 id="applications-in-particle-physics">Applications in Particle Physics<a class="anchor" aria-label="anchor" href="#applications-in-particle-physics"></a>
-</h3>
+<div class="section level4">
+<h4 id="applications-in-particle-physics">Applications in Particle Physics<a class="anchor" aria-label="anchor" href="#applications-in-particle-physics"></a>
+</h4>
 <ul>
 <li>Discovering new particles through anomaly detection.</li>
 <li>Grouping events based on similar characteristics (clustering).</li>
 <li>Simplifying complex datasets for further analysis.</li>
 </ul>
 </div>
-</div>
-<div class="section level2">
-<h2 id="advanced-topics-and-applications">Advanced Topics and Applications<a class="anchor" aria-label="anchor" href="#advanced-topics-and-applications"></a>
+</section><section><h2 class="section-heading" id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a>
+<a class="anchor" aria-label="anchor" href="#conclusion"></a>
 </h2>
-<div class="section level3">
-<h3 id="deep-learning-and-neural-networks">Deep Learning and Neural Networks<a class="anchor" aria-label="anchor" href="#deep-learning-and-neural-networks"></a>
-</h3>
-<ul>
-<li>Introduction to deep learning architectures (CNNs, RNNs).</li>
-<li>Applications in image analysis (e.g., detector images) and
-sequential data (e.g., event sequences).</li>
-</ul>
-</div>
-<div class="section level3">
-<h3 id="reinforcement-learning">Reinforcement Learning<a class="anchor" aria-label="anchor" href="#reinforcement-learning"></a>
-</h3>
-<ul>
-<li>Exploring dynamic decision-making processes in particle physics
-experiments.</li>
-<li>Potential applications in optimizing experimental setups and data
-collection strategies.</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="section level1">
-<h1 id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a>
-</h1>
+<hr class="half-width">
 <p>The Machine Learning with Open Data lesson equips participants with
 fundamental skills to apply ML techniques effectively in high-energy
 physics research. By mastering data preparation, model training, and
@@ -985,7 +955,7 @@ HEP.</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</div></section><section id="aio-04-ml-2"><p>Content from <a href="04-ml-2.html">Machine Learning Practical Applications</a></p>
+</section></section><section id="aio-04-ml-2"><p>Content from <a href="04-ml-2.html">Machine Learning Practical Applications</a></p>
 <hr>
 <p>Last updated on 2024-07-19 |
 
