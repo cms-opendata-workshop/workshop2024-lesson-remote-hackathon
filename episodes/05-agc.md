@@ -1,55 +1,67 @@
 ---
-title: "Advanced Generative Challenge"
+title: "Analysis Grand Challenge"
 teaching: 5
 exercises: 0
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How can we use generative modeling techniques in particle physics?
-- What are the challenges of working with older particle physics data?
-- How do we validate models in this context?
+- How do we perform a cross-section measurement with CMS Open Data?
+- What are the challenges of processing large datasets in particle physics?
+- How do we ensure reproducibility and scalability in analysis workflows?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Learn generative modeling techniques and their applications in particle physics.
-- Understand the challenges and methods for working with older particle physics data.
-- Gain experience in validating complex models.
+- Perform a cross-section measurement using CMS Open Data.
+- Understand the challenges and methods for processing large particle physics datasets.
+- Gain experience in creating reproducible and scalable analysis workflows.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Advanced Generative Challenge
+## Analysis Grand Challenge
 
-This project is designed for more experienced programmers looking for a challenging activity using older CMS data.
+This project is designed for more experienced programmers looking for a challenging activity using CMS Open Data.
 
 ### Overview
 
-The Advanced Generative Challenge is aimed at participants who have a solid programming background and are eager to tackle more complex problems. This challenge involves using generative modeling techniques to create synthetic particle collision data that closely matches the statistical properties of real CMS data.
+The Analysis Grand Challenge (AGC) is aimed at participants who have a solid programming background and are eager to tackle complex problems. This challenge involves performing the final steps in an analysis pipeline at scale to test workflows envisioned for the High-Luminosity Large Hadron Collider (HL-LHC).
 
-### Generative Modeling Techniques
+### Analysis Pipeline
 
-Participants will explore advanced generative modeling techniques, such as Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs). These techniques are powerful tools for creating realistic synthetic data and have numerous applications in particle physics and beyond.
+Participants will work on a cross-section measurement using 2015 CMS Open Data. This includes:
+
+1. **Columnar Data Extraction**: Extracting data from large datasets in a columnar format.
+2. **Data Processing**: Filtering events, constructing observables, and evaluating systematic uncertainties.
+3. **Histogramming**: Summarizing the processed data into histograms.
+4. **Statistical Model Construction**: Building statistical models based on the histograms.
+5. **Statistical Inference**: Performing statistical analysis to infer the cross-section measurement.
+6. **Visualization**: Creating relevant visualizations for each step of the analysis.
 
 ### Working with Older Data
 
-Using older CMS data presents unique challenges, such as dealing with outdated formats and incomplete datasets. Participants will learn strategies for overcoming these obstacles, ensuring that their models are robust and accurate even when working with less-than-ideal data.
+Using older CMS data presents unique challenges, such as dealing with outdated formats and incomplete datasets. Participants will learn strategies for overcoming these obstacles, ensuring their analyses are robust and accurate even when working with less-than-ideal data.
 
-### Model Validation
+### Reproducibility and Scalability
 
-An essential aspect of generative modeling is validating the synthetic data. Participants will learn various methods for evaluating their models, including statistical tests and comparison with real data. This ensures that the generated data is both realistic and useful for further analysis.
+An essential aspect of the AGC is ensuring that the analysis workflow is reproducible and can scale to the requirements of the HL-LHC. Participants will learn how to:
+
+- Utilize tools and services for data access and event selection (e.g., Rucio, ServiceX).
+- Implement histogramming and summary statistics using tools like Coffea and cabinetry.
+- Construct and fit statistical models using software like Pyhf.
+- Capture the entire analysis workflow for future reinterpretation using standards and services like [REANA](https://www.reana.io) and RECAST.
 
 ### Practical Application
 
-In this project, participants will apply their knowledge to generate synthetic particle collision data. This involves not only building and training generative models but also rigorously validating the generated data to ensure it meets the required standards.
+In this project, participants will apply their knowledge to perform a cross-section measurement. This involves building and executing the analysis pipeline, rigorously validating the results, and ensuring the workflow is reproducible and scalable.
 
-For more detailed information and guidelines, please refer to the [Advanced Generative Challenge Documentation](https://agc.readthedocs.io/en/latest/).
+For more detailed information and guidelines, please refer to the [Analysis Grand Challenge Documentation](https://agc.readthedocs.io/en/latest/).
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Generative modeling techniques for particle physics.
-- Challenges and methods for working with older data.
-- Techniques for validating complex generative models.
+- Cross-section measurement using CMS Open Data.
+- Challenges and methods for processing large datasets.
+- Creating reproducible and scalable analysis workflows.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
