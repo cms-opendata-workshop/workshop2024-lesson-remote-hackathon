@@ -289,7 +289,7 @@
 <div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
-        <a href="05-agc.html">5. Advanced Generative Challenge</a>
+        <a href="05-agc.html">5. Analysis Grand Challenge</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -1159,7 +1159,7 @@ any links that you are not going to use.
  -->
 </div>
 </div>
-</div></section><section id="aio-05-agc"><p>Content from <a href="05-agc.html">Advanced Generative Challenge</a></p>
+</div></section><section id="aio-05-agc"><p>Content from <a href="05-agc.html">Analysis Grand Challenge</a></p>
 <hr>
 <p>Last updated on 2024-07-19 |
 
@@ -1175,11 +1175,12 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>How can we use generative modeling techniques in particle
+<li>How do we perform a cross-section measurement with CMS Open
+Data?</li>
+<li>What are the challenges of processing large datasets in particle
 physics?</li>
-<li>What are the challenges of working with older particle physics
-data?</li>
-<li>How do we validate models in this context?</li>
+<li>How do we ensure reproducibility and scalability in analysis
+workflows?</li>
 </ul>
 </div>
 </div>
@@ -1189,67 +1190,91 @@ data?</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Learn generative modeling techniques and their applications in
-particle physics.</li>
-<li>Understand the challenges and methods for working with older
-particle physics data.</li>
-<li>Gain experience in validating complex models.</li>
+<li>Perform a cross-section measurement using CMS Open Data.</li>
+<li>Understand the challenges and methods for processing large particle
+physics datasets.</li>
+<li>Gain experience in creating reproducible and scalable analysis
+workflows.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="advanced-generative-challenge">Advanced Generative Challenge<a class="anchor" aria-label="anchor" href="#advanced-generative-challenge"></a>
-<a class="anchor" aria-label="anchor" href="#advanced-generative-challenge"></a>
+<section><h2 class="section-heading" id="analysis-grand-challenge">Analysis Grand Challenge<a class="anchor" aria-label="anchor" href="#analysis-grand-challenge"></a>
+<a class="anchor" aria-label="anchor" href="#analysis-grand-challenge"></a>
 </h2>
 <hr class="half-width">
 <p>This project is designed for more experienced programmers looking for
-a challenging activity using older CMS data.</p>
+a challenging activity using CMS Open Data.</p>
 <div class="section level3">
 <h3 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
 </h3>
-<p>The Advanced Generative Challenge is aimed at participants who have a
-solid programming background and are eager to tackle more complex
-problems. This challenge involves using generative modeling techniques
-to create synthetic particle collision data that closely matches the
-statistical properties of real CMS data.</p>
+<p>The Analysis Grand Challenge (AGC) is aimed at participants who have
+a solid programming background and are eager to tackle complex problems.
+This challenge involves performing the final steps in an analysis
+pipeline at scale to test workflows envisioned for the High-Luminosity
+Large Hadron Collider (HL-LHC).</p>
 </div>
 <div class="section level3">
-<h3 id="generative-modeling-techniques">Generative Modeling Techniques<a class="anchor" aria-label="anchor" href="#generative-modeling-techniques"></a>
+<h3 id="analysis-pipeline">Analysis Pipeline<a class="anchor" aria-label="anchor" href="#analysis-pipeline"></a>
 </h3>
-<p>Participants will explore advanced generative modeling techniques,
-such as Generative Adversarial Networks (GANs) and Variational
-Autoencoders (VAEs). These techniques are powerful tools for creating
-realistic synthetic data and have numerous applications in particle
-physics and beyond.</p>
+<p>Participants will work on a cross-section measurement using 2015 CMS
+Open Data. This includes:</p>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Columnar Data Extraction</strong>: Extracting data from
+large datasets in a columnar format.</li>
+<li>
+<strong>Data Processing</strong>: Filtering events, constructing
+observables, and evaluating systematic uncertainties.</li>
+<li>
+<strong>Histogramming</strong>: Summarizing the processed data into
+histograms.</li>
+<li>
+<strong>Statistical Model Construction</strong>: Building
+statistical models based on the histograms.</li>
+<li>
+<strong>Statistical Inference</strong>: Performing statistical
+analysis to infer the cross-section measurement.</li>
+<li>
+<strong>Visualization</strong>: Creating relevant visualizations for
+each step of the analysis.</li>
+</ol>
 </div>
 <div class="section level3">
 <h3 id="working-with-older-data">Working with Older Data<a class="anchor" aria-label="anchor" href="#working-with-older-data"></a>
 </h3>
 <p>Using older CMS data presents unique challenges, such as dealing with
 outdated formats and incomplete datasets. Participants will learn
-strategies for overcoming these obstacles, ensuring that their models
-are robust and accurate even when working with less-than-ideal data.</p>
+strategies for overcoming these obstacles, ensuring their analyses are
+robust and accurate even when working with less-than-ideal data.</p>
 </div>
 <div class="section level3">
-<h3 id="model-validation">Model Validation<a class="anchor" aria-label="anchor" href="#model-validation"></a>
+<h3 id="reproducibility-and-scalability">Reproducibility and Scalability<a class="anchor" aria-label="anchor" href="#reproducibility-and-scalability"></a>
 </h3>
-<p>An essential aspect of generative modeling is validating the
-synthetic data. Participants will learn various methods for evaluating
-their models, including statistical tests and comparison with real data.
-This ensures that the generated data is both realistic and useful for
-further analysis.</p>
+<p>An essential aspect of the AGC is ensuring that the analysis workflow
+is reproducible and can scale to the requirements of the HL-LHC.
+Participants will learn how to:</p>
+<ul>
+<li>Utilize tools and services for data access and event selection
+(e.g., Rucio, ServiceX).</li>
+<li>Implement histogramming and summary statistics using tools like
+Coffea and cabinetry.</li>
+<li>Construct and fit statistical models using software like Pyhf.</li>
+<li>Capture the entire analysis workflow for future reinterpretation
+using standards and services like <a href="https://www.reana.io" class="external-link">REANA</a> and RECAST.</li>
+</ul>
 </div>
 <div class="section level3">
 <h3 id="practical-application">Practical Application<a class="anchor" aria-label="anchor" href="#practical-application"></a>
 </h3>
-<p>In this project, participants will apply their knowledge to generate
-synthetic particle collision data. This involves not only building and
-training generative models but also rigorously validating the generated
-data to ensure it meets the required standards.</p>
-<p>For more detailed information and guidelines, please refer to the <a href="https://agc.readthedocs.io/en/latest/" class="external-link">Advanced Generative
-Challenge Documentation</a>.</p>
+<p>In this project, participants will apply their knowledge to perform a
+cross-section measurement. This involves building and executing the
+analysis pipeline, rigorously validating the results, and ensuring the
+workflow is reproducible and scalable.</p>
+<p>For more detailed information and guidelines, please refer to the <a href="https://agc.readthedocs.io/en/latest/" class="external-link">Analysis Grand Challenge
+Documentation</a>.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -1259,9 +1284,9 @@ Challenge Documentation</a>.</p>
 </h3>
 <div class="callout-content">
 <ul>
-<li>Generative modeling techniques for particle physics.</li>
-<li>Challenges and methods for working with older data.</li>
-<li>Techniques for validating complex generative models.</li>
+<li>Cross-section measurement using CMS Open Data.</li>
+<li>Challenges and methods for processing large datasets.</li>
+<li>Creating reproducible and scalable analysis workflows.</li>
 </ul>
 </div>
 </div>
