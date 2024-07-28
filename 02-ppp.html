@@ -18,17 +18,7 @@
   <div class="container-fluid top-nav-container">
     <div class="col-md-8">
       <div class="large-logo">
-        <img id="dpoa-logo" alt="CMS DPOA logo" src="assets/images/dpoa-logo.png"><span class="badge text-bg-warning">
-          <abbr title="This lesson is in the alpha phase, which means that it has been taught once and lesson authors are iterating on feedback.">
-            <a href="https://cdh.carpentries.org/the-lesson-life-cycle.html#field-testing-alpha-stage" class="external-link alert-link">
-              <i aria-hidden="true" class="icon" data-feather="alert-triangle" style="border-radius: 5px"></i>
-              Alpha
-            </a>
-            <span class="visually-hidden">This lesson is in the alpha phase, which means that it has been taught once and lesson authors are iterating on feedback.</span>
-          </abbr>
-        </span>
-
-      </div>
+        <img id="dpoa-logo" alt="CMS DPOA logo" src="assets/images/dpoa-logo.png"></div>
     </div>
     <div class="selector-container">
       <div id="theme-selector">
@@ -117,11 +107,11 @@
   Hackathon
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 86%" class="percentage">
-    86%
+<aside class="col-md-12 lesson-progress"><div style="width: 45%" class="percentage">
+    45%
   </div>
   <div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: 86%" aria-valuenow="86" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar incubator" role="progressbar" style="width: 45%" aria-valuenow="45" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -205,7 +195,7 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="01-particlediscoverylab.html">1. Particle Discovery Lab</a>
+        <a href="01-introduction.html">1. Introduction</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -225,6 +215,8 @@
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
         <ul><li><a href="#particle-physics-playground">Particle Physics Playground</a></li>
+<li><a href="#pre-learning-lesson">Pre-learning Lesson</a></li>
+<li><a href="#recommendations">Recommendations</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
 
@@ -234,7 +226,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="03-ml.html">3. Machine Learning with Open Data</a>
+        <a href="03-pdl.html">3. Particle Discovery Lab</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -243,7 +235,25 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="04-agc.html">4. Advanced Generative Challenge</a>
+        <a href="04-ml-1.html">4. Introduction to Machine Learning in HEP</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush6">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading6">
+        <a href="05-ml-2.html">5. Machine Learning Practical Applications</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="06-agc.html">6. Analysis Grand Challenge</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -291,23 +301,23 @@
         <!-- START: inst/pkgdown/templates/content-instructor.html dummypushtext -->
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Previous and Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link" href="01-particlediscoverylab.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="03-ml.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link" href="01-introduction.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
+        <a class="chapter-link float-end" href="03-pdl.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="01-particlediscoverylab.html" rel="prev">
+        <a class="chapter-link" href="01-introduction.html" rel="prev">
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
-          Previous: Particle Discovery
+          Previous: Introduction
         </a>
-        <a class="chapter-link float-end" href="03-ml.html" rel="next">
-          Next: Machine Learning...
+        <a class="chapter-link float-end" href="03-pdl.html" rel="next">
+          Next: Particle Discovery...
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Particle Physics Playground</h1>
-        <p>Last updated on 2024-07-14 |
+        <p>Last updated on 2024-07-28 |
 
         <a href="https://github.com/cms-opendata-workshop/workshop2024-lesson-remote-hackathon/edit/main/episodes/02-ppp.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -349,7 +359,7 @@ physics data.</li>
 </div>
 <section><h2 class="section-heading" id="particle-physics-playground">Particle Physics Playground<a class="anchor" aria-label="anchor" href="#particle-physics-playground"></a>
 <a class="anchor" aria-label="anchor" href="#particle-physics-playground"></a></h2>
-<hr class="half-width"><p>This lesson offers a variety of exercises designed to help
+<hr class="half-width"><p>This activity offers a variety of exercises designed to help
 undergraduates understand fundamental concepts in particle physics
 through practical analysis of CMS Open Data.</p>
 <div class="section level3">
@@ -359,6 +369,11 @@ way for participants to delve into the core principles of particle
 physics. By working with real CMS Open Data, students will enhance their
 theoretical knowledge through hands-on experience.</p>
 </div>
+</section><section><h2 class="section-heading" id="pre-learning-lesson">Pre-learning Lesson<a class="anchor" aria-label="anchor" href="#pre-learning-lesson"></a>
+<a class="anchor" aria-label="anchor" href="#pre-learning-lesson"></a></h2>
+<hr class="half-width"><p>Participants are encouraged to review the <a href="https://cms-opendata-workshop.github.io/workshop2024-lesson-particle-physics-primer/instructor/index.html" class="external-link">Particle
+Physics Primer pre-learning lesson</a>. This foundational lesson is
+equipped with lectures and exercises covering the following topics:</p>
 <div class="section level3">
 <h3 id="fundamental-concepts">Fundamental Concepts<a class="anchor" aria-label="anchor" href="#fundamental-concepts"></a></h3>
 <p>Participants will explore key concepts in particle physics, such as
@@ -377,12 +392,49 @@ lifetimes, and calculating branching ratios.</p>
 <div class="section level3">
 <h3 id="practical-analysis-tools">Practical Analysis Tools<a class="anchor" aria-label="anchor" href="#practical-analysis-tools"></a></h3>
 <p>Participants will be introduced to various tools and techniques used
-in particle physics analysis. This includes the use of ROOT for data
-analysis, as well as other software and frameworks commonly employed in
-the field. The goal is to equip students with the practical skills
-needed to conduct their own analyses and contribute to ongoing
-research.</p>
-<div id="you-have-choices" class="callout">
+in particle physics analysis. This includes the use of Python and
+Jupyter notebooks hosted on Google Colab for data analysis, as well as
+simplified data formats provided by the Particle Physics Playground
+website. The goal is to equip students with the practical skills needed
+to conduct their own analyses and contribute to ongoing research.</p>
+</div>
+</section><section><h2 class="section-heading" id="recommendations">Recommendations<a class="anchor" aria-label="anchor" href="#recommendations"></a>
+<a class="anchor" aria-label="anchor" href="#recommendations"></a></h2>
+<hr class="half-width"><div class="section level3">
+<h3 id="activity-suggestions">Activity Suggestions<a class="anchor" aria-label="anchor" href="#activity-suggestions"></a></h3>
+<ol style="list-style-type: decimal"><li>
+<strong>Watch the Lectures</strong>: Start by watching the first
+three lectures by Dr. Allison Hall to build a strong theoretical
+foundation.</li>
+<li>
+<strong>Try the Exercises</strong>: Attempt the associated exercises
+to test your understanding and apply what you’ve learned.</li>
+<li>
+<strong>Explore the Toy Analyses</strong>: Engage with the toy
+analyses to gain hands-on experience with real CMS data, focusing on:
+<ul><li>Working with Colab and understanding data formats.</li>
+<li>Learning about particle lifetimes and identifying detectable
+particles.</li>
+<li>Calculating masses using 4-vectors and creating histograms.</li>
+<li>Discovering new particles by analyzing decay products.</li>
+</ul></li>
+<li>
+<strong>Discuss and Collaborate</strong>: Use discussion forums or
+collaborative platforms to share your findings, ask questions, and work
+with peers.</li>
+</ol></div>
+<div class="section level3">
+<h3 id="additional-resources">Additional Resources<a class="anchor" aria-label="anchor" href="#additional-resources"></a></h3>
+<ul><li>
+<strong>Particle Physics Primer Videos</strong>: Watch
+public-oriented videos for a broad overview.</li>
+<li>
+<strong>Standard Model References</strong>: Review materials on the
+Standard Model and its historical development.</li>
+<li>
+<strong>Advanced Lectures</strong>: For those interested, watch the
+remaining lectures covering neutrino physics and dark matter.</li>
+</ul><div id="you-have-choices" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
@@ -390,11 +442,10 @@ research.</p>
 <h3 class="callout-title">You Have Choices!<a class="anchor" aria-label="anchor" href="#you-have-choices"></a>
 </h3>
 <div class="callout-content">
-<p>While ROOT and C++ are essential for early-stage analysis of CMS Open
-Data in the AOD (Run 1) or MiniAOD (Run 2) formats, participants can use
-other tools and file formats for downstream analysis or for analyzing
-Run 2 NanoAOD files. Feel free to choose the tools that best suit your
-needs and preferences.</p>
+<p>While Python and Jupyter notebooks are the primary tools for this
+activity, feel free to explore other tools and file formats that suit
+your needs. The goal is to learn and apply particle physics analysis
+techniques in a way that works best for you.</p>
 </div>
 </div>
 </div>
@@ -419,17 +470,17 @@ any links that you are not going to use.
 </div>
 </section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link" href="01-particlediscoverylab.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="03-ml.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link" href="01-introduction.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
+        <a class="chapter-link float-end" href="03-pdl.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="01-particlediscoverylab.html" rel="prev">
+        <a class="chapter-link" href="01-introduction.html" rel="prev">
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
-          Previous: Particle Discovery
+          Previous: Introduction
         </a>
-        <a class="chapter-link float-end" href="03-ml.html" rel="next">
-          Next: Machine Learning...
+        <a class="chapter-link float-end" href="03-pdl.html" rel="next">
+          Next: Particle Discovery...
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
@@ -475,8 +526,8 @@ any links that you are not going to use.
   "url": "https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/02-ppp.html",
   "identifier": "https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/02-ppp.html",
   "dateCreated": "2024-07-14",
-  "dateModified": "2024-07-14",
-  "datePublished": "2024-07-16"
+  "dateModified": "2024-07-28",
+  "datePublished": "2024-07-28"
 }
 
   </script><script>
