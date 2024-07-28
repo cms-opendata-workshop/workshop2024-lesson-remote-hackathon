@@ -60,6 +60,7 @@ Participants will be introduced to various tools and techniques used in particle
 
 ### Additional Resources
 
+
 - **Particle Physics Primer Videos**: Watch public-oriented videos for a broad overview.
 - **Standard Model References**: Review materials on the Standard Model and its historical development.
 - **Advanced Lectures**: For those interested, watch the remaining lectures covering neutrino physics and dark matter.
