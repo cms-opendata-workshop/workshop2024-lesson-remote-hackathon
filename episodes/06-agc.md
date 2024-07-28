@@ -39,9 +39,10 @@ Participants will work on a cross-section measurement using 2015 CMS Open Data. 
 5. **Statistical Inference**: Performing statistical analysis to infer the cross-section measurement.
 6. **Visualization**: Creating relevant visualizations for each step of the analysis.
 
-### Working with Older Data
+### Working with CMS Open Data
 
-Using older CMS data presents unique challenges, such as dealing with outdated formats and incomplete datasets. Participants will learn strategies for overcoming these obstacles, ensuring their analyses are robust and accurate even when working with less-than-ideal data.
+Using older CMS data presents unique challenges, such as analyzing data formats within the CMSSW software framework. Participants will learn strategies for overcoming these obstacles, ensuring their analyses are robust and accurate even when working with older CMS Open Data.
+
 
 ### Reproducibility and Scalability
 
