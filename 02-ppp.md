@@ -28,6 +28,13 @@ This activity offers a variety of exercises designed to help undergraduates unde
 
 The [Particle Physics Playground](https://sites.google.com/siena.edu/particle-physics-playground/home) provides an engaging and interactive way for participants to delve into the core principles of particle physics. By working with real CMS Open Data, students will enhance their theoretical knowledge through hands-on experience.
 
+::::::::::::::::::::::::::::: callout
+## Discussion forums
+
+Make sure to join the [Mattermost channel](https://mattermost.web.cern.ch/cmsodws2024/channels/2-particle-physics-playground) for this activity to engage directly with the workshop instructors and fellow participants.
+
+:::::::::::::::::::::::::::::
+
 ## Pre-learning Lesson
 
 Participants are encouraged to review the [Particle Physics Primer pre-learning lesson](https://cms-opendata-workshop.github.io/workshop2024-lesson-particle-physics-primer/instructor/index.html). This foundational lesson is equipped with lectures and exercises covering the following topics:
@@ -56,10 +63,9 @@ Participants will be introduced to various tools and techniques used in particle
    - Calculating masses using 4-vectors and creating histograms.
    - Discovering new particles by analyzing decay products.
 
-4. **Discuss and Collaborate**: Use discussion forums or collaborative platforms to share your findings, ask questions, and work with peers.
+4. **Discuss and Collaborate**: Use discussion forums ([Mattermost channel]()) or collaborative platforms to share your findings, ask questions, and work with peers.
 
 ### Additional Resources
-
 
 - **Particle Physics Primer Videos**: Watch public-oriented videos for a broad overview.
 - **Standard Model References**: Review materials on the Standard Model and its historical development.
@@ -69,6 +75,7 @@ Participants will be introduced to various tools and techniques used in particle
 ## You Have Choices!
 
 While Python and Jupyter notebooks are the primary tools for this activity, feel free to explore other tools and file formats that suit your needs. The goal is to learn and apply particle physics analysis techniques in a way that works best for you.
+
 :::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: keypoints 

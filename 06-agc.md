@@ -43,6 +43,12 @@ Participants will work on a cross-section measurement using 2015 CMS Open Data. 
 
 Using older CMS data presents unique challenges, such as analyzing data formats within the CMSSW software framework. Participants will learn strategies for overcoming these obstacles, ensuring their analyses are robust and accurate even when working with older CMS Open Data.
 
+::::::::::::::::::::::::::::: callout
+## Discussion forums
+
+Make sure to join the [Mattermost channel](https://mattermost.web.cern.ch/cmsodws2024/channels/4-advanced-generative-challenge) for this activity to engage directly with the workshop instructors and fellow participants.
+
+:::::::::::::::::::::::::::::
 
 ### Reproducibility and Scalability
 
