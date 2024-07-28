@@ -26,7 +26,7 @@ This project is designed for more experienced programmers looking for a challeng
 
 ### Overview
 
-The Analysis Grand Challenge (AGC) is aimed at participants who have a solid programming background and are eager to tackle complex problems. This challenge involves performing the final steps in an analysis pipeline at scale to test workflows envisioned for the High-Luminosity Large Hadron Collider (HL-LHC).
+The [Analysis Grand Challenge](https://agc.readthedocs.io/en/latest/?badge=latest) (AGC) is aimed at participants who have a solid programming background and are eager to tackle complex problems. This challenge involves performing the final steps in an analysis pipeline at scale to test workflows envisioned for the High-Luminosity Large Hadron Collider (HL-LHC).
 
 ### Analysis Pipeline
 
