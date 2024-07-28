@@ -5,24 +5,26 @@ exercises: 60
 ---
 :::::::::::::::::::::::::::::::::::::: questions
 
-How can we identify different particles in collision data?
-What are the characteristics of muons in the dataset?
-How do we perform basic and advanced data analysis in particle physics?
+- How can we identify different particles in collision data?
+- What are the characteristics of muons in the dataset?
+- How do we perform basic and advanced data analysis in particle physics?
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-Reconstruct decays of an unknown particle X to 2 muons.
-Use histograms to display the calculated mass of particle X.
-Learn to fit and subtract background contributions from data.
-Understand uncertainty propagation throughout the analysis.
-Identify the discovered particle and compare its properties to known values.
+- Reconstruct decays of an unknown particle X to 2 muons.
+- Use histograms to display the calculated mass of particle X.
+- Learn to fit and subtract background contributions from data.
+- Understand uncertainty propagation throughout the analysis.
+- Identify the discovered particle and compare its properties to known values.
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ## Particle Discovery Lab
 
-The goal of this exercise is to reconstruct decays of an unknown particle X (initial state) to 2 muons (final state). Participants will display histograms for the calculated mass of particle X and learn about fitting and subtracting background distributions from data.
+The goal of the [Particle Discovery Lab](https://github.com/bethel-physics/ParticleDiscoveryLab), is to reconstruct decays of an unknown particle X (initial state) to 2 muons (final state). Participants will display histograms for the calculated mass of particle X and learn about fitting and subtracting background distributions from data.
 
 Uncertainty propagation concepts are included at each step of the analysis. After isolating the signal distribution, participants will determine which particle they have discovered and compare its properties (mass and width) to known values.
 
@@ -83,7 +85,8 @@ These activities encourage innovation, collaboration, and exploration of particl
 
 ::::::::::::::::::::::::::::::::::::: keypoints
 
-Introduction to particle collision data.
-Techniques for identifying particles such as muons and electrons.
-Methods for performing both basic and advanced data analysis.
+- Introduction to particle collision data.
+- Techniques for identifying particles such as muons and electrons.
+- Methods for performing both basic and advanced data analysis.
+
 ::::::::::::::::::::::::::::::::::::::::::::::::

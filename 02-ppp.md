@@ -26,7 +26,7 @@ This activity offers a variety of exercises designed to help undergraduates unde
 
 ### Overview
 
-The Particle Physics Playground provides an engaging and interactive way for participants to delve into the core principles of particle physics. By working with real CMS Open Data, students will enhance their theoretical knowledge through hands-on experience.
+The [Particle Physics Playground](https://sites.google.com/siena.edu/particle-physics-playground/home) provides an engaging and interactive way for participants to delve into the core principles of particle physics. By working with real CMS Open Data, students will enhance their theoretical knowledge through hands-on experience.
 
 ## Pre-learning Lesson
 
