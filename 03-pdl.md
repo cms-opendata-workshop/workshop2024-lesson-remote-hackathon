@@ -60,7 +60,8 @@ Uncertainty propagation concepts are included at each step of the analysis. Afte
    - Follow the instructions in the notebook to complete the analysis interactively. You will perform tasks such as plotting histograms, fitting data, and analyzing uncertainties.
 
 
-::::::::::::::::::::::::::::: Visualize with CMS Spy WebGL
+::::::::::::::::::::::::::::: callout
+## Visualize with CMS Spy WebGL
 
 To enhance your understanding and visualization of the particle collision events, use the CMS Spy WebGL visualizer. This tool provides a 3D visualization of the CMS collision data, allowing you to better grasp the spatial distribution and interactions of particles.
 
