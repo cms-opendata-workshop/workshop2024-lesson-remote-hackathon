@@ -63,6 +63,13 @@ Uncertainty propagation concepts are included at each step of the analysis. Afte
 
 
 ::::::::::::::::::::::::::::: callout
+## Discussion forums
+
+Make sure to join the [Mattermost channel](https://mattermost.web.cern.ch/cmsodws2024/channels/01-particle-discovery-lab) for this activity to engage directly with the workshop instructors and fellow participants.
+
+:::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::: callout
 ## Visualize with CMS Spy WebGL
 
 To enhance your understanding and visualization of the particle collision events, use the CMS Spy WebGL visualizer. This tool provides a 3D visualization of the CMS collision data, allowing you to better grasp the spatial distribution and interactions of particles.
