@@ -56,6 +56,8 @@ code/$ pip install scikit-learn xgboost
  * When you come to this line in the notebook: https://github.com/iris-hep/analysis-grand-challenge/blob/main/analyses/cms-open-data-ttbar/ttbar_analysis_pipeline.py#L514, Change `af=utils.config["global"]["AF"]` to `af='local'`
  * more TBA...
 
+:::::::::
+
 ### Analysis Pipeline
 
 Participants will work on a cross-section measurement using 2015 CMS Open Data. This includes:
