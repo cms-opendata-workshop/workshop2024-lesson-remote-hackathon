@@ -28,6 +28,25 @@ This project is designed for more experienced programmers looking for a challeng
 
 The [Analysis Grand Challenge](https://agc.readthedocs.io/en/latest/?badge=latest) (AGC) is aimed at participants who have a solid programming background and are eager to tackle complex problems. This challenge involves performing the final steps in an analysis pipeline at scale to test workflows envisioned for the High-Luminosity Large Hadron Collider (HL-LHC).
 
+### Setup for Open Data workshop participants
+
+You will need a slightly newer python container to install all the packages needed for this challenge
+
+```
+export workpath=$PWD
+mkdir cms_open_data_AGC
+chmod -R 777 cms_open_data_AGC
+docker run -it --name my_agc -P -p 8888:8888 -v ${workpath}/cms_open_data_AGC:/code gitlab-registry.cern.ch/cms-cloud/python-vnc:python3.10.12
+```
+
+The AGC $t\bar{t}$ analysis repository contains a file of requirements. Download this file and install the requirements: 
+
+```
+## alternate to wget: git clone https://github.com/iris-hep/analysis-grand-challenge
+code/$ wget https://raw.githubusercontent.com/iris-hep/analysis-grand-challenge/main/analyses/cms-open-data-ttbar/requirements.txt
+code/$ pip install -r requirements.txt
+``` 
+
 ### Analysis Pipeline
 
 Participants will work on a cross-section measurement using 2015 CMS Open Data. This includes:
