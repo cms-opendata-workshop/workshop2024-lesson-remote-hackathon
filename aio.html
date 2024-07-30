@@ -1523,7 +1523,27 @@ repository contains a file of requirements. Download this file and
 install the requirements:</p>
 <pre><code>## alternate to wget: git clone https://github.com/iris-hep/analysis-grand-challenge
 code/$ wget https://raw.githubusercontent.com/iris-hep/analysis-grand-challenge/main/analyses/cms-open-data-ttbar/requirements.txt
-code/$ pip install -r requirements.txt</code></pre>
+code/$ pip install -r requirements.txt
+code/$ pip uninstall xgboost scikit-learn
+code/$ pip install scikit-learn xgboost</code></pre>
+<div id="notes-for-changes-needed-by-workshop-participants" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="notes-for-changes-needed-by-workshop-participants" class="callout-inner">
+<h3 class="callout-title">Notes for changes needed by workshop participants<a class="anchor" aria-label="anchor" href="#notes-for-changes-needed-by-workshop-participants"></a>
+</h3>
+<div class="callout-content">
+<ul>
+<li>When you come to this line in the notebook: <a href="https://github.com/iris-hep/analysis-grand-challenge/blob/main/analyses/cms-open-data-ttbar/ttbar_analysis_pipeline.py#L514" class="external-link uri">https://github.com/iris-hep/analysis-grand-challenge/blob/main/analyses/cms-open-data-ttbar/ttbar_analysis_pipeline.py#L514</a>,
+Change <code>af=utils.config["global"]["AF"]</code> to
+<code>af='local'</code>
+</li>
+<li>more TBA…</li>
+</ul>
+</div>
+</div>
+</div>
 </div>
 <div class="section level3">
 <h3 id="analysis-pipeline">Analysis Pipeline<a class="anchor" aria-label="anchor" href="#analysis-pipeline"></a>
