@@ -314,7 +314,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Analysis Grand Challenge</h1>
-        <p>Last updated on 2024-07-28 |
+        <p>Last updated on 2024-07-30 |
 
         <a href="https://github.com/cms-opendata-workshop/workshop2024-lesson-remote-hackathon/edit/main/episodes/06-agc.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -370,6 +370,21 @@ programming background and are eager to tackle complex problems. This
 challenge involves performing the final steps in an analysis pipeline at
 scale to test workflows envisioned for the High-Luminosity Large Hadron
 Collider (HL-LHC).</p>
+</div>
+<div class="section level3">
+<h3 id="setup-for-open-data-workshop-participants">Setup for Open Data workshop participants<a class="anchor" aria-label="anchor" href="#setup-for-open-data-workshop-participants"></a></h3>
+<p>You will need a slightly newer python container to install all the
+packages needed for this challenge</p>
+<pre><code>export workpath=$PWD
+mkdir cms_open_data_AGC
+chmod -R 777 cms_open_data_AGC
+docker run -it --name my_agc -P -p 8888:8888 -v ${workpath}/cms_open_data_AGC:/code gitlab-registry.cern.ch/cms-cloud/python-vnc:python3.10.12</code></pre>
+<p>The AGC <span class="math inline">\(t\bar{t}\)</span> analysis
+repository contains a file of requirements. Download this file and
+install the requirements:</p>
+<pre><code>## alternate to wget: git clone https://github.com/iris-hep/analysis-grand-challenge
+code/$ wget https://raw.githubusercontent.com/iris-hep/analysis-grand-challenge/main/analyses/cms-open-data-ttbar/requirements.txt
+code/$ pip install -r requirements.txt</code></pre>
 </div>
 <div class="section level3">
 <h3 id="analysis-pipeline">Analysis Pipeline<a class="anchor" aria-label="anchor" href="#analysis-pipeline"></a></h3>
@@ -513,7 +528,7 @@ any links that you are not going to use.
   "url": "https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/06-agc.html",
   "identifier": "https://cms-opendata-workshop.github.io/workshop2024-lesson-remote-hackathon/instructor/06-agc.html",
   "dateCreated": "2024-07-14",
-  "dateModified": "2024-07-28",
+  "dateModified": "2024-07-30",
   "datePublished": "2024-07-30"
 }
 
