@@ -45,7 +45,18 @@ The AGC $t\bar{t}$ analysis repository contains a file of requirements. Download
 ## alternate to wget: git clone https://github.com/iris-hep/analysis-grand-challenge
 code/$ wget https://raw.githubusercontent.com/iris-hep/analysis-grand-challenge/main/analyses/cms-open-data-ttbar/requirements.txt
 code/$ pip install -r requirements.txt
-``` 
+code/$ pip uninstall xgboost scikit-learn
+code/$ pip install scikit-learn xgboost
+```
+
+::::::::: callout
+
+## Notes for changes needed by workshop participants
+
+ * When you come to this line in the notebook: https://github.com/iris-hep/analysis-grand-challenge/blob/main/analyses/cms-open-data-ttbar/ttbar_analysis_pipeline.py#L514, Change `af=utils.config["global"]["AF"]` to `af='local'`
+ * more TBA...
+
+:::::::::
 
 ### Analysis Pipeline
 
@@ -61,6 +72,7 @@ Participants will work on a cross-section measurement using 2015 CMS Open Data. 
 ### Working with CMS Open Data
 
 Using older CMS data presents unique challenges, such as analyzing data formats within the CMSSW software framework. Participants will learn strategies for overcoming these obstacles, ensuring their analyses are robust and accurate even when working with older CMS Open Data.
+
 
 ::::::::::::::::::::::::::::: callout
 ## Discussion forums
